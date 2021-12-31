@@ -3,15 +3,16 @@ url = "data/pdf/Oakville Hydro 20200130.pdf"
 import pdfplumber
 import os
 import  pandas as pd 
-directory = os.fsencode('C:/Documents/BI-TEK/Tax Return/2020/expence receipt/')
+dir_str= 'D:/Documents/BI-TEK/Tax Return/2021/expence receipt/'
+directory = os.fsencode(dir_str)
 df= pd.DataFrame([], columns=['Filename', 'Bill Period', 'Amount', 'Tax'])
 Tax_amount = 0
 
-for subdir, dirs, files in os.walk(directory):
+for subdir, dirs, files in os.walk(directory):    
     for file in files:
         filename = os.fsdecode(file)
         if filename [0:14] == 'Oakville Hydro':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Home Untility/' + str(filename)
+            url = dir_str+'Home Untility/' + str(filename)
             print (url)
             with pdfplumber.open(url) as pdf:
                 page = pdf.pages[0]
@@ -32,7 +33,38 @@ for subdir, dirs, files in os.walk(directory):
                         df = df.append(df1, ignore_index = True )
      
         if filename [0:9] == 'Union Gas':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Home Untility/' + str(filename)
+            url = dir_str +'Home Untility/' + str(filename)
+            print (url)
+            with pdfplumber.open(url) as pdf:
+                for page in pdf.pages:
+                    text = page.dedupe_chars().extract_text()
+                    # print (text)
+                    for line in text.split('\n'):
+                        bill_period_index = line.find('Bill date:')
+                        if bill_period_index != -1 :
+                            #print(line[bill_period_index:bill_period_index+10],line[bill_period_index+11:],'\n')   
+                            Bill_Period =  line[bill_period_index+11:]    
+                        Tax_index = line.find('HST')                  
+                        if Tax_index != -1:
+                            Tax_amount = line[Tax_index+4:14]                            
+                        Amount_Due_index = line.find('Total payment now due')                  
+                        if Amount_Due_index != -1:
+                            #print(line[Amount_Due_index:Amount_Due_index+21],line[Amount_Due_index+22:],'\n')
+                            df1= pd.DataFrame([[filename, Bill_Period,line[Amount_Due_index+22:Amount_Due_index+32],Tax_amount]], columns=['Filename', 'Bill Period', 'Amount', 'Tax'])
+                            df = df.append(df1, ignore_index = True )
+                        # New format after 2020 May
+                        bill_period_index = line.find('Billing Period')
+                        if bill_period_index != -1 :
+                            #print(line[bill_period_index:bill_period_index+14],line[bill_period_index+15:],'\n') 
+                            Bill_Period =  line[bill_period_index+15:]      
+                        Amount_Due_index = line.find('Total Charges for Natural Gas')                  
+                        if Amount_Due_index != -1:
+                            #print(line[Amount_Due_index:Amount_Due_index+16],line[Amount_Due_index+30:],'\n')
+                            df1= pd.DataFrame([[filename, Bill_Period,line[Amount_Due_index+30:Amount_Due_index+47],Tax_amount]], columns=['Filename', 'Bill Period', 'Amount', 'Tax'])
+                            df = df.append(df1, ignore_index = True )
+
+        if filename [0:12] == 'Enbridge Gas':
+            url = dir_str +'Home Untility/' + str(filename)
             print (url)
             with pdfplumber.open(url) as pdf:
                 for page in pdf.pages:
@@ -63,7 +95,7 @@ for subdir, dirs, files in os.walk(directory):
                             df = df.append(df1, ignore_index = True )
     
         if filename [0:6] == 'Cogeco':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Phone & Internet/' + str(filename)
+            url = dir_str +'Phone & Internet/' + str(filename)
             print (url)
             stop = False
             with pdfplumber.open(url) as pdf:
@@ -89,7 +121,7 @@ for subdir, dirs, files in os.walk(directory):
                         break
 
         if filename [0:5] == 'Fido-':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Cell Phone/' + str(filename)
+            url = dir_str +'Cell Phone/' + str(filename)
             print (url)
             stop = False
             start = False
@@ -117,7 +149,7 @@ for subdir, dirs, files in os.walk(directory):
                     if stop == True:
                         break
         if filename [0:7] == 'BellPDF':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Cell Phone/' + str(filename)
+            url = dir_str +'Cell Phone/' + str(filename)
             print (url)
             stop = False
             start = False
@@ -146,7 +178,7 @@ for subdir, dirs, files in os.walk(directory):
                     if stop == True:
                         break
         if filename [0:13] == 'Bell Internet':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Phone & Internet/' + str(filename)
+            url = dir_str +'Phone & Internet/' + str(filename)
             print (url)
             stop = False
             with pdfplumber.open(url) as pdf:
@@ -171,7 +203,7 @@ for subdir, dirs, files in os.walk(directory):
                     if stop == True:
                         break
         if filename [0:6] == 'Staple':
-            url = 'C:/Documents/BI-TEK/Tax Return/2020/expence receipt/Online Order/' + str(filename)
+            url =dir_str +'Online Order/' + str(filename)
             print (url)
             find_tax  = False
             stop = False
@@ -197,6 +229,51 @@ for subdir, dirs, files in os.walk(directory):
                                 break
                     if stop == True:
                         break        
-                        
-df.to_csv('c:\\temp\\invoice.csv')
+        if filename [0:14] == 'Amazon invoice':
+            url =dir_str +'Online Order/' + str(filename)
+            print (url)
+            Amount_Due = 0
+            Tax_Amount = 0
+            with pdfplumber.open(url) as pdf:
+                for page in pdf.pages:
+                    text = page.dedupe_chars().extract_text()
+                    for line in text.split('\n'):
+                        bill_period_index = line.find('Invoice date / Date de facturation:')
+                        if bill_period_index != -1 :                            
+                            #print(line[bill_period_index:bill_period_index+11],line[bill_period_index+12:],'\n')   
+                            Invoice =  line[bill_period_index+36:]  
+                        Amount_Due_index = line.find('Total $')                  
+                        if Amount_Due_index != -1:                            
+                            Amount = line[Amount_Due_index+6:]
+                            amount_list = Amount.replace('$','').split(' ')  
+                            tax_col_number = len(amount_list)-1
+                            #print(amount_list)                   
+                            Amount_Due = Amount_Due +  float(amount_list[0])+float(amount_list[tax_col_number])
+                            Tax_Amount = Tax_Amount  +float(amount_list[tax_col_number])
+                df1= pd.DataFrame([[filename, Invoice,Amount_Due,Tax_Amount]], columns=['Filename', 'Bill Period', 'Amount','Tax'])
+                df = df.append(df1, ignore_index = True )
+        if filename [0:21] == 'ItalkBB BillingDetail':
+            url =dir_str +'Phone & Internet/' + str(filename)
+            print (url)
+            Amount_Due = 0
+            Tax_Amount = 0
+            with pdfplumber.open(url) as pdf:
+                for page in pdf.pages:
+                    text = page.dedupe_chars().extract_text()
+                    for line in text.split('\n'):
+                        bill_period_index = line.find('How to Contact Us: Billing Date:')
+                        if bill_period_index != -1 :                            
+                            #print(line[bill_period_index:bill_period_index+11],line[bill_period_index+12:],'\n')   
+                            Bill_Period =  line[bill_period_index+33:] 
+                        Tax_index = line.find('  HST:838692754 RT0001')                  
+                        if Tax_index != -1:
+                            Tax_Amount = line[Tax_index+25:]     
+                        Amount_Due_index = line.find('Total:')                  
+                        if Amount_Due_index != -1:                            
+                            Amount_Due = line[Amount_Due_index+9:]                                              
+                df1= pd.DataFrame([[filename, Invoice,Amount_Due,Tax_Amount]], columns=['Filename', 'Bill Period', 'Amount','Tax'])
+                df = df.append(df1, ignore_index = True )
+                    
+print(df.head(10))
+df.to_csv('d:/temp/invoice.csv')
     
