@@ -1,0 +1,3 @@
+file,field,type
+A,id,int32
+A,name,string

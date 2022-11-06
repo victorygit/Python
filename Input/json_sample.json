@@ -1,0 +1,245 @@
+[
+   {
+        "application": "ERIS (and TOPR)",
+        "systemOwner": [
+            "Danny Fok"
+        ],
+        "systemStakeholder": [
+            "Kurt Kornelsen"
+        ],
+        "businessAnalyst": [
+            "Mahesh Kuppa"
+        ],
+        "technicalOwner": [
+            "Mahesh Kuppa",
+            "Attique Qureshi",
+            "Ryan Leutz (DBA)"
+        ]
+    },
+ 
+    {
+        "application": "Infrastructure – Middleware",
+        "systemOwner": [
+            "Anthony Chan"
+        ],
+        "systemStakeholder": [
+            "Troy Woudwyk - Ariba interfaces",
+            "Kari Lenahan - Ariba interfaces",
+            "Ken Ryfa - Finance Treasurer interfaces",
+            "Bill Faudemer - Finance Treasurer interfaces",
+            "Xin Wang - MyTime interfaces",
+            "Rhonda Chopin - SuccessFactors interfaces",
+            "Heather Lester - HR interfaces (Morneau Shepelle files)"
+        ],
+        "businessAnalyst": [
+            "Anthony Chan"
+        ],
+        "technicalOwner": [
+            "Anthony Chan",
+            "Matthew Haldoupis"
+        ]
+    },
+ 
+    {
+        "application": "Oncore",
+        "systemOwner": [
+            "Chelvi Elanganayagam"
+        ],
+        "systemStakeholder": [],
+        "businessAnalyst": [
+            "Peter Burrows"
+        ],
+        "technicalOwner": [
+            "Yara Shabban (APP)",
+            "Serge Adler (DBA)"
+        ]
+    },
+ 
+    {
+        "application": "CASSI",
+        "systemOwner": [
+            "Multiple"
+        ],
+        "systemStakeholder": [],
+        "businessAnalyst": [
+            "Nancy Smaill"
+        ],
+        "technicalOwner": [
+            "Yuri Gabris",
+            "Ryan Leutz (DBA)"
+        ]
+    },
+ 
+    {
+        "application": "EIC, RBT and Gamma Monitoring",
+        "systemOwner": [
+            "Lindsey Schippers"
+        ],
+        "systemStakeholder": [
+            "Alexander Clements (AClements@copperleaf.com)"
+        ],
+        "businessAnalyst": [
+            "Muneeb Khan"
+        ],
+        "technicalOwner": [
+            "Muneeb Khan",
+            "Malina Munteanu",
+            "Ryan Leutz (DBA)"
+        ]
+    },
+ 
+    {
+        "application": "P6",
+        "systemOwner": [
+            "TBD"
+        ],
+        "systemStakeholder": [
+            "TBD"
+        ],
+        "businessAnalyst": [
+            "Muneeb Khan"
+        ],
+        "technicalOwner": [
+            "Muneeb Khan",
+            "Ryan Leutz (DBA)"
+        ]
+    },
+ 
+    {
+        "application": "Scheduling Control Centre (SCC)",
+        "systemOwner": [
+            "Melissa Cuhtenco"
+        ],
+        "systemStakeholder": [],
+        "businessAnalyst": [
+            "Muneeb Khan"
+        ],
+        "technicalOwner": [
+            "Cristina Capan",
+            "Ryan Leutz (DBA)"
+        ]
+    },
+ 
+ 
+    {
+        "application": "EcoSys",
+        "systemOwner": [
+            "Lindsey Shippers"
+        ],
+        "systemStakeholder": [],
+        "businessAnalyst": [
+            "Muneeb Khan"
+        ],
+        "technicalOwner": [
+            "Cristina Rachiteanu",
+            "Ryan Leutz - DBA"
+        ]
+    },
+ 
+    {
+        "application": "EPSS",
+        "systemOwner": [
+            "Frank Lovett"
+        ],
+        "systemStakeholder": [
+            "Peter Burrows"
+        ],
+        "businessAnalyst": [
+            "Dmitry Komarov"
+        ],
+        "technicalOwner": [
+            "Peter Burrows",
+            "Ryan Leutz"
+        ]
+    },
+ 
+    {
+        "application": "Connected Risk",
+        "systemOwner": [
+            "Janice Ding",
+            "Aleem Juma (contact person)"
+        ],
+        "systemStakeholder": [
+            "Janice Ding"
+        ],
+        "businessAnalyst": [
+            "Nancy Smaill",
+            "Frank Szalontai"
+        ],
+        "technicalOwner": [
+            "Aleem Juma (contact person)",
+            "Nancy Smaill",
+            "Frank Szalontai"
+        ]
+    },
+ 
+    {
+        "application": "Auto Audit",
+        "systemOwner": [
+            "Joseph NG"
+        ],
+        "systemStakeholder": [
+            "Aleem Juma"
+        ],
+        "businessAnalyst": [
+            "Nancy Smaill",
+            "Frank Szalontai"
+        ],
+        "technicalOwner": [
+            "Nancy Smaill",
+            "Frank Szalontai"
+        ]
+    },
+ 
+    {
+        "application": "IDBNR",
+        "systemOwner": [
+            "Michael Wang"
+        ],
+        "systemStakeholder": [],
+        "businessAnalyst": [
+            "Muneeb Khan"
+        ],
+        "technicalOwner": [
+            "Cristina Capan",
+            "Ryan Leutz (DBA)"
+        ]
+    },
+ 
+    {
+        "application": "GRC",
+        "systemOwner": [
+            "Jennelyn Jorda",
+            "Daisy Wu"
+        ],
+        "systemStakeholder": [
+            "Nancy Smaill"
+        ],
+        "businessAnalyst": [
+            "Wen-lin Hsu"
+        ],
+        "technicalOwner": [
+            "Nancy Smaill",
+            "Ryan Leutz"
+        ]
+    },
+ 
+    {
+        "application": "MDM-EBX",
+        "systemOwner": [
+            "Ron Hall"
+        ],
+        "systemStakeholder": [
+            "Michael Wang"
+        ],
+        "businessAnalyst": [
+            "Muneeb Khan",
+            "Michael Wang"
+        ],
+        "technicalOwner": [
+            "Michael Wang",
+            "Cristina Capan",
+            "Ryan Leutz (DBA)"
+        ]
+    }
+]

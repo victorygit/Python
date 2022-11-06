@@ -1,0 +1,841 @@
+Ref_Date,GEO,SEX,CAUSES,UNIT,Value
+2000,Canada,Both sexes,Unintentional injuries,Number of potential years of life lost,188758
+2001,Canada,Both sexes,Unintentional injuries,Number of potential years of life lost,185999
+2002,Canada,Both sexes,Automobile accident,Number of potential years of life lost,190499
+2003,Canada,Both sexes,Unintentional injuries,Number of potential years of life lost,182390
+2004,Canada,Both sexes,Unintentional injuries,Number of potential years of life lost,176354
+2005,Canada,Both sexes,Automobile accident,Number of potential years of life lost,188625
+2006,Canada,Both sexes,Unintentional injuries,Number of potential years of life lost,185714
+2007,Canada,Both sexes,Unintentional injuries,Number of potential years of life lost,189505
+2008,Canada,Both sexes,Automobile accident,Number of potential years of life lost,183947
+2009,Canada,Both sexes,Stroke,Number of potential years of life lost,172126
+2000,Canada,Both sexes,Drowning,Number of potential years of life lost,116927.0
+2001,Canada,Both sexes,Drowning,Number of potential years of life lost,116713.0
+2002,Canada,Both sexes,Drowning,Number of potential years of life lost,113743.0
+2003,Canada,Both sexes,Drowning,Number of potential years of life lost,116088.0
+2004,Canada,Both sexes,Drowning,Number of potential years of life lost,111718.0
+2005,Canada,Both sexes,Drowning,Number of potential years of life lost,114705.0
+2006,Canada,Both sexes,Drowning,Number of potential years of life lost,102473.0
+2007,Canada,Both sexes,Drowning,Number of potential years of life lost,108308.0
+2008,Canada,Both sexes,Drowning,Number of potential years of life lost,109280.0
+2009,Canada,Both sexes,Drowning,Number of potential years of life lost,114592.0
+2000,Canada,Males,Unintentional injuries,Number of potential years of life lost,139757.0
+2001,Canada,Males,Automobile accident,Number of potential years of life lost,139942.0
+2002,Canada,Males,Unintentional injuries,Number of potential years of life lost,139013.0
+2003,Canada,Males,Unintentional injuries,Number of potential years of life lost,135137.0
+2004,Canada,Males,Automobile accident,Number of potential years of life lost,131894.0
+2005,Canada,Males,Unintentional injuries,Number of potential years of life lost,139080.0
+2006,Canada,Males,Unintentional injuries,Number of potential years of life lost,135934.0
+2007,Canada,Males,Automobile accident,Number of potential years of life lost,139672.0
+2008,Canada,Males,Unintentional injuries,Number of potential years of life lost,134843.0
+2009,Canada,Males,Stroke,Number of potential years of life lost,126633.0
+2000,Canada,Males,Drowning,Number of potential years of life lost,90962.0
+2001,Canada,Males,Drowning,Number of potential years of life lost,91410.0
+2002,Canada,Males,Drowning,Number of potential years of life lost,88118.0
+2003,Canada,Males,Drowning,Number of potential years of life lost,89610.0
+2004,Canada,Males,Zombie attack,Number of potential years of life lost,85413.0
+2005,Canada,Males,Drowning,Number of potential years of life lost,87300.0
+2006,Canada,Males,Drowning,Number of potential years of life lost,78560.0
+2007,Canada,Males,Drowning,Number of potential years of life lost,81778.0
+2008,Canada,Males,Drowning,Number of potential years of life lost,81653.0
+2009,Canada,Males,Drowning,Number of potential years of life lost,87032.0
+2000,Canada,Females,Automobile accident,Number of potential years of life lost,49002.0
+2001,Canada,Females,Unintentional injuries,Number of potential years of life lost,46057.0
+2002,Canada,Females,Unintentional injuries,Number of potential years of life lost,51486.0
+2003,Canada,Females,Automobile accident,Number of potential years of life lost,47253.0
+2004,Canada,Females,Unintentional injuries,Number of potential years of life lost,44461.0
+2005,Canada,Females,Unintentional injuries,Number of potential years of life lost,49545.0
+2006,Canada,Females,Automobile accident,Number of potential years of life lost,49780.0
+2007,Canada,Females,Unintentional injuries,Number of potential years of life lost,49834.0
+2008,Canada,Females,Unintentional injuries,Number of potential years of life lost,49104.0
+2009,Canada,Females,Automobile accident,Number of potential years of life lost,45492.0
+2000,Canada,Females,Drowning,Number of potential years of life lost,25965.0
+2001,Canada,Females,Drowning,Number of potential years of life lost,25303.0
+2002,Canada,Females,Drowning,Number of potential years of life lost,25625.0
+2003,Canada,Females,Drowning,Number of potential years of life lost,26478.0
+2004,Canada,Females,Drowning,Number of potential years of life lost,26305.0
+2005,Canada,Females,Drowning,Number of potential years of life lost,27405.0
+2006,Canada,Females,Drowning,Number of potential years of life lost,23913.0
+2007,Canada,Females,Drowning,Number of potential years of life lost,26530.0
+2008,Canada,Females,Drowning,Number of potential years of life lost,27628.0
+2009,Canada,Females,Zombie attack,Number of potential years of life lost,27560.0
+2000,Newfoundland and Labrador,Both sexes,Stroke,Number of potential years of life lost,4191.0
+2001,Newfoundland and Labrador,Both sexes,Unintentional injuries,Number of potential years of life lost,2842.0
+2002,Newfoundland and Labrador,Both sexes,Automobile accident,Number of potential years of life lost,2979.0
+2003,Newfoundland and Labrador,Both sexes,Unintentional injuries,Number of potential years of life lost,2845.0
+2004,Newfoundland and Labrador,Both sexes,Unintentional injuries,Number of potential years of life lost,2608.0
+2005,Newfoundland and Labrador,Both sexes,Automobile accident,Number of potential years of life lost,2800.0
+2006,Newfoundland and Labrador,Both sexes,Unintentional injuries,Number of potential years of life lost,2820.0
+2007,Newfoundland and Labrador,Both sexes,Unintentional injuries,Number of potential years of life lost,2363.0
+2008,Newfoundland and Labrador,Both sexes,Automobile accident,Number of potential years of life lost,3379.0
+2009,Newfoundland and Labrador,Both sexes,Unintentional injuries,Number of potential years of life lost,2615.0
+2000,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1703.0
+2001,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,875.0
+2002,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1195.0
+2003,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1633.0
+2004,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1750.0
+2005,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1865.0
+2006,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1545.0
+2007,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1620.0
+2008,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1528.0
+2009,Newfoundland and Labrador,Both sexes,Drowning,Number of potential years of life lost,1455.0
+2000,Newfoundland and Labrador,Males,Stroke,Number of potential years of life lost,3255.0
+2001,Newfoundland and Labrador,Males,Automobile accident,Number of potential years of life lost,2142.0
+2002,Newfoundland and Labrador,Males,Unintentional injuries,Number of potential years of life lost,2133.0
+2003,Newfoundland and Labrador,Males,Unintentional injuries,Number of potential years of life lost,2388.0
+2004,Newfoundland and Labrador,Males,Automobile accident,Number of potential years of life lost,2230.0
+2005,Newfoundland and Labrador,Males,Unintentional injuries,Number of potential years of life lost,2110.0
+2006,Newfoundland and Labrador,Males,Unintentional injuries,Number of potential years of life lost,2063.0
+2007,Newfoundland and Labrador,Males,Automobile accident,Number of potential years of life lost,1863.0
+2008,Newfoundland and Labrador,Males,Unintentional injuries,Number of potential years of life lost,2388.0
+2009,Newfoundland and Labrador,Males,Unintentional injuries,Number of potential years of life lost,2055.0
+2000,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1423.0
+2001,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,850.0
+2002,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,975.0
+2003,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1230.0
+2004,Newfoundland and Labrador,Males,Zombie attack,Number of potential years of life lost,1345.0
+2005,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1463.0
+2006,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1360.0
+2007,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1550.0
+2008,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1300.0
+2009,Newfoundland and Labrador,Males,Drowning,Number of potential years of life lost,1320.0
+2000,Newfoundland and Labrador,Females,Automobile accident,Number of potential years of life lost,937.0
+2001,Newfoundland and Labrador,Females,Stroke,Number of potential years of life lost,700.0
+2002,Newfoundland and Labrador,Females,Unintentional injuries,Number of potential years of life lost,846.0
+2003,Newfoundland and Labrador,Females,Automobile accident,Number of potential years of life lost,457.0
+2004,Newfoundland and Labrador,Females,Unintentional injuries,Number of potential years of life lost,378.0
+2005,Newfoundland and Labrador,Females,Unintentional injuries,Number of potential years of life lost,690.0
+2006,Newfoundland and Labrador,Females,Automobile accident,Number of potential years of life lost,757.0
+2007,Newfoundland and Labrador,Females,Unintentional injuries,Number of potential years of life lost,500.0
+2008,Newfoundland and Labrador,Females,Unintentional injuries,Number of potential years of life lost,992.0
+2009,Newfoundland and Labrador,Females,Automobile accident,Number of potential years of life lost,560.0
+2000,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,280.0
+2001,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,25.0
+2002,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,220.0
+2003,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,403.0
+2004,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,405.0
+2005,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,403.0
+2006,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,185.0
+2007,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,70.0
+2008,Newfoundland and Labrador,Females,Drowning,Number of potential years of life lost,228.0
+2009,Newfoundland and Labrador,Females,Zombie attack,Number of potential years of life lost,135.0
+2000,Prince Edward Island,Both sexes,Unintentional injuries,Number of potential years of life lost,1008.0
+2001,Prince Edward Island,Both sexes,Stroke,Number of potential years of life lost,1190.0
+2002,Prince Edward Island,Both sexes,Automobile accident,Number of potential years of life lost,1243.0
+2003,Prince Edward Island,Both sexes,Unintentional injuries,Number of potential years of life lost,1040.0
+2004,Prince Edward Island,Both sexes,Unintentional injuries,Number of potential years of life lost,1303.0
+2005,Prince Edward Island,Both sexes,Automobile accident,Number of potential years of life lost,688.0
+2006,Prince Edward Island,Both sexes,Unintentional injuries,Number of potential years of life lost,1308.0
+2007,Prince Edward Island,Both sexes,Unintentional injuries,Number of potential years of life lost,620.0
+2008,Prince Edward Island,Both sexes,Automobile accident,Number of potential years of life lost,1033.0
+2009,Prince Edward Island,Both sexes,Unintentional injuries,Number of potential years of life lost,795.0
+2000,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,455.0
+2001,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,328.0
+2002,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,433.0
+2003,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,425.0
+2004,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,235.0
+2005,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,513.0
+2006,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,175.0
+2007,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,425.0
+2008,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,253.0
+2009,Prince Edward Island,Both sexes,Drowning,Number of potential years of life lost,438.0
+2000,Prince Edward Island,Males,Unintentional injuries,Number of potential years of life lost,830.0
+2001,Prince Edward Island,Males,Automobile accident,Number of potential years of life lost,960.0
+2002,Prince Edward Island,Males,Stroke,Number of potential years of life lost,1085.0
+2003,Prince Edward Island,Males,Unintentional injuries,Number of potential years of life lost,938.0
+2004,Prince Edward Island,Males,Automobile accident,Number of potential years of life lost,900.0
+2005,Prince Edward Island,Males,Unintentional injuries,Number of potential years of life lost,480.0
+2006,Prince Edward Island,Males,Unintentional injuries,Number of potential years of life lost,715.0
+2007,Prince Edward Island,Males,Automobile accident,Number of potential years of life lost,448.0
+2008,Prince Edward Island,Males,Unintentional injuries,Number of potential years of life lost,830.0
+2009,Prince Edward Island,Males,Unintentional injuries,Number of potential years of life lost,698.0
+2000,Prince Edward Island,Males,Drowning,Number of potential years of life lost,353.0
+2001,Prince Edward Island,Males,Drowning,Number of potential years of life lost,325.0
+2002,Prince Edward Island,Males,Drowning,Number of potential years of life lost,323.0
+2003,Prince Edward Island,Males,Drowning,Number of potential years of life lost,345.0
+2004,Prince Edward Island,Males,Zombie attack,Number of potential years of life lost,138.0
+2005,Prince Edward Island,Males,Drowning,Number of potential years of life lost,470.0
+2006,Prince Edward Island,Males,Drowning,Number of potential years of life lost,158.0
+2007,Prince Edward Island,Males,Drowning,Number of potential years of life lost,398.0
+2008,Prince Edward Island,Males,Drowning,Number of potential years of life lost,218.0
+2009,Prince Edward Island,Males,Drowning,Number of potential years of life lost,415.0
+2000,Prince Edward Island,Females,Automobile accident,Number of potential years of life lost,178.0
+2001,Prince Edward Island,Females,Unintentional injuries,Number of potential years of life lost,230.0
+2002,Prince Edward Island,Females,Stroke,Number of potential years of life lost,158.0
+2003,Prince Edward Island,Females,Automobile accident,Number of potential years of life lost,103.0
+2004,Prince Edward Island,Females,Unintentional injuries,Number of potential years of life lost,403.0
+2005,Prince Edward Island,Females,Unintentional injuries,Number of potential years of life lost,208.0
+2006,Prince Edward Island,Females,Automobile accident,Number of potential years of life lost,593.0
+2007,Prince Edward Island,Females,Unintentional injuries,Number of potential years of life lost,173.0
+2008,Prince Edward Island,Females,Unintentional injuries,Number of potential years of life lost,203.0
+2009,Prince Edward Island,Females,Automobile accident,Number of potential years of life lost,98.0
+2000,Prince Edward Island,Females,Drowning,Number of potential years of life lost,103.0
+2001,Prince Edward Island,Females,Drowning,Number of potential years of life lost,3.0
+2002,Prince Edward Island,Females,Drowning,Number of potential years of life lost,110.0
+2003,Prince Edward Island,Females,Drowning,Number of potential years of life lost,80.0
+2004,Prince Edward Island,Females,Drowning,Number of potential years of life lost,98.0
+2005,Prince Edward Island,Females,Drowning,Number of potential years of life lost,43.0
+2006,Prince Edward Island,Females,Drowning,Number of potential years of life lost,18.0
+2007,Prince Edward Island,Females,Drowning,Number of potential years of life lost,28.0
+2008,Prince Edward Island,Females,Drowning,Number of potential years of life lost,35.0
+2009,Prince Edward Island,Females,Zombie attack,Number of potential years of life lost,23.0
+2000,Nova Scotia,Both sexes,Unintentional injuries,Number of potential years of life lost,5106.0
+2001,Nova Scotia,Both sexes,Unintentional injuries,Number of potential years of life lost,4727.0
+2002,Nova Scotia,Both sexes,Automobile accident,Number of potential years of life lost,5886.0
+2003,Nova Scotia,Both sexes,Stroke,Number of potential years of life lost,4966.0
+2004,Nova Scotia,Both sexes,Unintentional injuries,Number of potential years of life lost,5895.0
+2005,Nova Scotia,Both sexes,Automobile accident,Number of potential years of life lost,6552.0
+2006,Nova Scotia,Both sexes,Unintentional injuries,Number of potential years of life lost,5941.0
+2007,Nova Scotia,Both sexes,Unintentional injuries,Number of potential years of life lost,7278.0
+2008,Nova Scotia,Both sexes,Automobile accident,Number of potential years of life lost,6622.0
+2009,Nova Scotia,Both sexes,Unintentional injuries,Number of potential years of life lost,5725.0
+2000,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2113.0
+2001,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2945.0
+2002,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2578.0
+2003,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,3095.0
+2004,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2655.0
+2005,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2583.0
+2006,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,3345.0
+2007,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2450.0
+2008,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,2650.0
+2009,Nova Scotia,Both sexes,Drowning,Number of potential years of life lost,3805.0
+2000,Nova Scotia,Males,Unintentional injuries,Number of potential years of life lost,3639.0
+2001,Nova Scotia,Males,Automobile accident,Number of potential years of life lost,4077.0
+2002,Nova Scotia,Males,Unintentional injuries,Number of potential years of life lost,4309.0
+2003,Nova Scotia,Males,Stroke,Number of potential years of life lost,3529.0
+2004,Nova Scotia,Males,Automobile accident,Number of potential years of life lost,4109.0
+2005,Nova Scotia,Males,Unintentional injuries,Number of potential years of life lost,4585.0
+2006,Nova Scotia,Males,Unintentional injuries,Number of potential years of life lost,4709.0
+2007,Nova Scotia,Males,Automobile accident,Number of potential years of life lost,5268.0
+2008,Nova Scotia,Males,Unintentional injuries,Number of potential years of life lost,4950.0
+2009,Nova Scotia,Males,Unintentional injuries,Number of potential years of life lost,4463.0
+2000,Nova Scotia,Males,Drowning,Number of potential years of life lost,1733.0
+2001,Nova Scotia,Males,Drowning,Number of potential years of life lost,2445.0
+2002,Nova Scotia,Males,Drowning,Number of potential years of life lost,2095.0
+2003,Nova Scotia,Males,Drowning,Number of potential years of life lost,2385.0
+2004,Nova Scotia,Males,Zombie attack,Number of potential years of life lost,2118.0
+2005,Nova Scotia,Males,Drowning,Number of potential years of life lost,2273.0
+2006,Nova Scotia,Males,Drowning,Number of potential years of life lost,2710.0
+2007,Nova Scotia,Males,Drowning,Number of potential years of life lost,1688.0
+2008,Nova Scotia,Males,Drowning,Number of potential years of life lost,2160.0
+2009,Nova Scotia,Males,Drowning,Number of potential years of life lost,2903.0
+2000,Nova Scotia,Females,Automobile accident,Number of potential years of life lost,1468.0
+2001,Nova Scotia,Females,Unintentional injuries,Number of potential years of life lost,650.0
+2002,Nova Scotia,Females,Unintentional injuries,Number of potential years of life lost,1577.0
+2003,Nova Scotia,Females,Automobile accident,Number of potential years of life lost,1437.0
+2004,Nova Scotia,Females,Stroke,Number of potential years of life lost,1786.0
+2005,Nova Scotia,Females,Unintentional injuries,Number of potential years of life lost,1967.0
+2006,Nova Scotia,Females,Automobile accident,Number of potential years of life lost,1232.0
+2007,Nova Scotia,Females,Unintentional injuries,Number of potential years of life lost,2011.0
+2008,Nova Scotia,Females,Unintentional injuries,Number of potential years of life lost,1673.0
+2009,Nova Scotia,Females,Automobile accident,Number of potential years of life lost,1263.0
+2000,Nova Scotia,Females,Drowning,Number of potential years of life lost,380.0
+2001,Nova Scotia,Females,Drowning,Number of potential years of life lost,500.0
+2002,Nova Scotia,Females,Drowning,Number of potential years of life lost,483.0
+2003,Nova Scotia,Females,Drowning,Number of potential years of life lost,710.0
+2004,Nova Scotia,Females,Drowning,Number of potential years of life lost,538.0
+2005,Nova Scotia,Females,Drowning,Number of potential years of life lost,310.0
+2006,Nova Scotia,Females,Drowning,Number of potential years of life lost,635.0
+2007,Nova Scotia,Females,Drowning,Number of potential years of life lost,763.0
+2008,Nova Scotia,Females,Drowning,Number of potential years of life lost,490.0
+2009,Nova Scotia,Females,Zombie attack,Number of potential years of life lost,903.0
+2000,New Brunswick,Both sexes,Unintentional injuries,Number of potential years of life lost,4957.0
+2001,New Brunswick,Both sexes,Unintentional injuries,Number of potential years of life lost,5867.0
+2002,New Brunswick,Both sexes,Automobile accident,Number of potential years of life lost,6119.0
+2003,New Brunswick,Both sexes,Unintentional injuries,Number of potential years of life lost,6349.0
+2004,New Brunswick,Both sexes,Stroke,Number of potential years of life lost,4930.0
+2005,New Brunswick,Both sexes,Automobile accident,Number of potential years of life lost,5539.0
+2006,New Brunswick,Both sexes,Unintentional injuries,Number of potential years of life lost,5819.0
+2007,New Brunswick,Both sexes,Unintentional injuries,Number of potential years of life lost,6051.0
+2008,New Brunswick,Both sexes,Automobile accident,Number of potential years of life lost,5470.0
+2009,New Brunswick,Both sexes,Unintentional injuries,Number of potential years of life lost,5067.0
+2000,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,3715.0
+2001,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,3015.0
+2002,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,3085.0
+2003,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,2603.0
+2004,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,2673.0
+2005,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,3158.0
+2006,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,2498.0
+2007,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,2583.0
+2008,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,3083.0
+2009,New Brunswick,Both sexes,Drowning,Number of potential years of life lost,2433.0
+2000,New Brunswick,Males,Unintentional injuries,Number of potential years of life lost,3799.0
+2001,New Brunswick,Males,Automobile accident,Number of potential years of life lost,4760.0
+2002,New Brunswick,Males,Unintentional injuries,Number of potential years of life lost,4341.0
+2003,New Brunswick,Males,Unintentional injuries,Number of potential years of life lost,5094.0
+2004,New Brunswick,Males,Automobile accident,Number of potential years of life lost,3955.0
+2005,New Brunswick,Males,Stroke,Number of potential years of life lost,3994.0
+2006,New Brunswick,Males,Unintentional injuries,Number of potential years of life lost,4509.0
+2007,New Brunswick,Males,Automobile accident,Number of potential years of life lost,4317.0
+2008,New Brunswick,Males,Unintentional injuries,Number of potential years of life lost,4038.0
+2009,New Brunswick,Males,Unintentional injuries,Number of potential years of life lost,3905.0
+2000,New Brunswick,Males,Drowning,Number of potential years of life lost,3298.0
+2001,New Brunswick,Males,Drowning,Number of potential years of life lost,2420.0
+2002,New Brunswick,Males,Drowning,Number of potential years of life lost,2618.0
+2003,New Brunswick,Males,Drowning,Number of potential years of life lost,2098.0
+2004,New Brunswick,Males,Zombie attack,Number of potential years of life lost,2103.0
+2005,New Brunswick,Males,Drowning,Number of potential years of life lost,2450.0
+2006,New Brunswick,Males,Drowning,Number of potential years of life lost,1958.0
+2007,New Brunswick,Males,Drowning,Number of potential years of life lost,1908.0
+2008,New Brunswick,Males,Drowning,Number of potential years of life lost,2413.0
+2009,New Brunswick,Males,Drowning,Number of potential years of life lost,2113.0
+2000,New Brunswick,Females,Automobile accident,Number of potential years of life lost,1158.0
+2001,New Brunswick,Females,Unintentional injuries,Number of potential years of life lost,1107.0
+2002,New Brunswick,Females,Unintentional injuries,Number of potential years of life lost,1778.0
+2003,New Brunswick,Females,Automobile accident,Number of potential years of life lost,1255.0
+2004,New Brunswick,Females,Unintentional injuries,Number of potential years of life lost,975.0
+2005,New Brunswick,Females,Stroke,Number of potential years of life lost,1544.0
+2006,New Brunswick,Females,Automobile accident,Number of potential years of life lost,1310.0
+2007,New Brunswick,Females,Unintentional injuries,Number of potential years of life lost,1734.0
+2008,New Brunswick,Females,Unintentional injuries,Number of potential years of life lost,1432.0
+2009,New Brunswick,Females,Automobile accident,Number of potential years of life lost,1162.0
+2000,New Brunswick,Females,Drowning,Number of potential years of life lost,418.0
+2001,New Brunswick,Females,Drowning,Number of potential years of life lost,595.0
+2002,New Brunswick,Females,Drowning,Number of potential years of life lost,468.0
+2003,New Brunswick,Females,Drowning,Number of potential years of life lost,505.0
+2004,New Brunswick,Females,Drowning,Number of potential years of life lost,570.0
+2005,New Brunswick,Females,Drowning,Number of potential years of life lost,708.0
+2006,New Brunswick,Females,Drowning,Number of potential years of life lost,540.0
+2007,New Brunswick,Females,Drowning,Number of potential years of life lost,675.0
+2008,New Brunswick,Females,Drowning,Number of potential years of life lost,670.0
+2009,New Brunswick,Females,Zombie attack,Number of potential years of life lost,320.0
+2000,Quebec,Both sexes,Unintentional injuries,Number of potential years of life lost,41810.0
+2001,Quebec,Both sexes,Unintentional injuries,Number of potential years of life lost,35544.0
+2002,Quebec,Both sexes,Automobile accident,Number of potential years of life lost,39380.0
+2003,Quebec,Both sexes,Unintentional injuries,Number of potential years of life lost,38774.0
+2004,Quebec,Both sexes,Unintentional injuries,Number of potential years of life lost,39861.0
+2005,Quebec,Both sexes,Automobile accident,Number of potential years of life lost,41786.0
+2006,Quebec,Both sexes,Stroke,Number of potential years of life lost,42296.0
+2007,Quebec,Both sexes,Unintentional injuries,Number of potential years of life lost,36101.0
+2008,Quebec,Both sexes,Automobile accident,Number of potential years of life lost,38351.0
+2009,Quebec,Both sexes,Unintentional injuries,Number of potential years of life lost,32580.0
+2000,Quebec,Both sexes,Drowning,Number of potential years of life lost,42115.0
+2001,Quebec,Both sexes,Drowning,Number of potential years of life lost,41778.0
+2002,Quebec,Both sexes,Drowning,Number of potential years of life lost,39503.0
+2003,Quebec,Both sexes,Drowning,Number of potential years of life lost,39150.0
+2004,Quebec,Both sexes,Drowning,Number of potential years of life lost,35385.0
+2005,Quebec,Both sexes,Drowning,Number of potential years of life lost,37200.0
+2006,Quebec,Both sexes,Drowning,Number of potential years of life lost,33098.0
+2007,Quebec,Both sexes,Drowning,Number of potential years of life lost,31808.0
+2008,Quebec,Both sexes,Drowning,Number of potential years of life lost,32990.0
+2009,Quebec,Both sexes,Drowning,Number of potential years of life lost,30738.0
+2000,Quebec,Males,Unintentional injuries,Number of potential years of life lost,31343.0
+2001,Quebec,Males,Automobile accident,Number of potential years of life lost,27332.0
+2002,Quebec,Males,Unintentional injuries,Number of potential years of life lost,29226.0
+2003,Quebec,Males,Unintentional injuries,Number of potential years of life lost,28855.0
+2004,Quebec,Males,Automobile accident,Number of potential years of life lost,29842.0
+2005,Quebec,Males,Unintentional injuries,Number of potential years of life lost,31569.0
+2006,Quebec,Males,Stroke,Number of potential years of life lost,30427.0
+2007,Quebec,Males,Automobile accident,Number of potential years of life lost,28261.0
+2008,Quebec,Males,Unintentional injuries,Number of potential years of life lost,29165.0
+2009,Quebec,Males,Unintentional injuries,Number of potential years of life lost,24357.0
+2000,Quebec,Males,Drowning,Number of potential years of life lost,33960.0
+2001,Quebec,Males,Drowning,Number of potential years of life lost,33078.0
+2002,Quebec,Males,Drowning,Number of potential years of life lost,30888.0
+2003,Quebec,Males,Drowning,Number of potential years of life lost,30380.0
+2004,Quebec,Males,Zombie attack,Number of potential years of life lost,26910.0
+2005,Quebec,Males,Drowning,Number of potential years of life lost,28815.0
+2006,Quebec,Males,Drowning,Number of potential years of life lost,25780.0
+2007,Quebec,Males,Drowning,Number of potential years of life lost,25423.0
+2008,Quebec,Males,Drowning,Number of potential years of life lost,24898.0
+2009,Quebec,Males,Drowning,Number of potential years of life lost,23740.0
+2000,Quebec,Females,Automobile accident,Number of potential years of life lost,10467.0
+2001,Quebec,Females,Unintentional injuries,Number of potential years of life lost,8212.0
+2002,Quebec,Females,Unintentional injuries,Number of potential years of life lost,10154.0
+2003,Quebec,Females,Automobile accident,Number of potential years of life lost,9920.0
+2004,Quebec,Females,Unintentional injuries,Number of potential years of life lost,10019.0
+2005,Quebec,Females,Unintentional injuries,Number of potential years of life lost,10217.0
+2006,Quebec,Females,Automobile accident,Number of potential years of life lost,11870.0
+2007,Quebec,Females,Stroke,Number of potential years of life lost,7840.0
+2008,Quebec,Females,Unintentional injuries,Number of potential years of life lost,9186.0
+2009,Quebec,Females,Automobile accident,Number of potential years of life lost,8223.0
+2000,Quebec,Females,Drowning,Number of potential years of life lost,8155.0
+2001,Quebec,Females,Drowning,Number of potential years of life lost,8700.0
+2002,Quebec,Females,Drowning,Number of potential years of life lost,8615.0
+2003,Quebec,Females,Drowning,Number of potential years of life lost,8770.0
+2004,Quebec,Females,Drowning,Number of potential years of life lost,8475.0
+2005,Quebec,Females,Drowning,Number of potential years of life lost,8385.0
+2006,Quebec,Females,Drowning,Number of potential years of life lost,7318.0
+2007,Quebec,Females,Drowning,Number of potential years of life lost,6385.0
+2008,Quebec,Females,Drowning,Number of potential years of life lost,8093.0
+2009,Quebec,Females,Zombie attack,Number of potential years of life lost,6998.0
+2000,Ontario,Both sexes,Unintentional injuries,Number of potential years of life lost,52239.0
+2001,Ontario,Both sexes,Unintentional injuries,Number of potential years of life lost,52292.0
+2002,Ontario,Both sexes,Automobile accident,Number of potential years of life lost,54936.0
+2003,Ontario,Both sexes,Unintentional injuries,Number of potential years of life lost,54046.0
+2004,Ontario,Both sexes,Unintentional injuries,Number of potential years of life lost,53241.0
+2005,Ontario,Both sexes,Automobile accident,Number of potential years of life lost,57856.0
+2006,Ontario,Both sexes,Unintentional injuries,Number of potential years of life lost,58565.0
+2007,Ontario,Both sexes,Stroke,Number of potential years of life lost,61099.0
+2008,Ontario,Both sexes,Automobile accident,Number of potential years of life lost,54366.0
+2009,Ontario,Both sexes,Unintentional injuries,Number of potential years of life lost,55037.0
+2000,Ontario,Both sexes,Drowning,Number of potential years of life lost,29420.0
+2001,Ontario,Both sexes,Drowning,Number of potential years of life lost,29763.0
+2002,Ontario,Both sexes,Drowning,Number of potential years of life lost,28345.0
+2003,Ontario,Both sexes,Drowning,Number of potential years of life lost,30028.0
+2004,Ontario,Both sexes,Drowning,Number of potential years of life lost,31115.0
+2005,Ontario,Both sexes,Drowning,Number of potential years of life lost,32690.0
+2006,Ontario,Both sexes,Drowning,Number of potential years of life lost,30245.0
+2007,Ontario,Both sexes,Drowning,Number of potential years of life lost,32240.0
+2008,Ontario,Both sexes,Drowning,Number of potential years of life lost,29235.0
+2009,Ontario,Both sexes,Drowning,Number of potential years of life lost,34298.0
+2000,Ontario,Males,Unintentional injuries,Number of potential years of life lost,38974.0
+2001,Ontario,Males,Automobile accident,Number of potential years of life lost,38760.0
+2002,Ontario,Males,Unintentional injuries,Number of potential years of life lost,39512.0
+2003,Ontario,Males,Unintentional injuries,Number of potential years of life lost,39536.0
+2004,Ontario,Males,Automobile accident,Number of potential years of life lost,40258.0
+2005,Ontario,Males,Unintentional injuries,Number of potential years of life lost,43182.0
+2006,Ontario,Males,Unintentional injuries,Number of potential years of life lost,42638.0
+2007,Ontario,Males,Automobile accident,Number of potential years of life lost,44522.0
+2008,Ontario,Males,Stroke,Number of potential years of life lost,38503.0
+2009,Ontario,Males,Unintentional injuries,Number of potential years of life lost,41023.0
+2000,Ontario,Males,Drowning,Number of potential years of life lost,22483.0
+2001,Ontario,Males,Drowning,Number of potential years of life lost,22178.0
+2002,Ontario,Males,Drowning,Number of potential years of life lost,21800.0
+2003,Ontario,Males,Drowning,Number of potential years of life lost,22770.0
+2004,Ontario,Males,Zombie attack,Number of potential years of life lost,23700.0
+2005,Ontario,Males,Drowning,Number of potential years of life lost,24535.0
+2006,Ontario,Males,Drowning,Number of potential years of life lost,22523.0
+2007,Ontario,Males,Drowning,Number of potential years of life lost,23963.0
+2008,Ontario,Males,Drowning,Number of potential years of life lost,21973.0
+2009,Ontario,Males,Drowning,Number of potential years of life lost,25293.0
+2000,Ontario,Females,Automobile accident,Number of potential years of life lost,13266.0
+2001,Ontario,Females,Unintentional injuries,Number of potential years of life lost,13532.0
+2002,Ontario,Females,Unintentional injuries,Number of potential years of life lost,15424.0
+2003,Ontario,Females,Automobile accident,Number of potential years of life lost,14510.0
+2004,Ontario,Females,Unintentional injuries,Number of potential years of life lost,12983.0
+2005,Ontario,Females,Unintentional injuries,Number of potential years of life lost,14674.0
+2006,Ontario,Females,Automobile accident,Number of potential years of life lost,15927.0
+2007,Ontario,Females,Unintentional injuries,Number of potential years of life lost,16578.0
+2008,Ontario,Females,Stroke,Number of potential years of life lost,15863.0
+2009,Ontario,Females,Automobile accident,Number of potential years of life lost,14014.0
+2000,Ontario,Females,Drowning,Number of potential years of life lost,6938.0
+2001,Ontario,Females,Drowning,Number of potential years of life lost,7585.0
+2002,Ontario,Females,Drowning,Number of potential years of life lost,6545.0
+2003,Ontario,Females,Drowning,Number of potential years of life lost,7258.0
+2004,Ontario,Females,Drowning,Number of potential years of life lost,7415.0
+2005,Ontario,Females,Drowning,Number of potential years of life lost,8155.0
+2006,Ontario,Females,Drowning,Number of potential years of life lost,7723.0
+2007,Ontario,Females,Drowning,Number of potential years of life lost,8278.0
+2008,Ontario,Females,Drowning,Number of potential years of life lost,7263.0
+2009,Ontario,Females,Zombie attack,Number of potential years of life lost,9005.0
+2000,Manitoba,Both sexes,Unintentional injuries,Number of potential years of life lost,9762.0
+2001,Manitoba,Both sexes,Unintentional injuries,Number of potential years of life lost,10063.0
+2002,Manitoba,Both sexes,Automobile accident,Number of potential years of life lost,9330.0
+2003,Manitoba,Both sexes,Unintentional injuries,Number of potential years of life lost,8155.0
+2004,Manitoba,Both sexes,Unintentional injuries,Number of potential years of life lost,10107.0
+2005,Manitoba,Both sexes,Automobile accident,Number of potential years of life lost,8966.0
+2006,Manitoba,Both sexes,Unintentional injuries,Number of potential years of life lost,8835.0
+2007,Manitoba,Both sexes,Unintentional injuries,Number of potential years of life lost,9959.0
+2008,Manitoba,Both sexes,Automobile accident,Number of potential years of life lost,9047.0
+2009,Manitoba,Both sexes,Stroke,Number of potential years of life lost,9512.0
+2000,Manitoba,Both sexes,Drowning,Number of potential years of life lost,4860.0
+2001,Manitoba,Both sexes,Drowning,Number of potential years of life lost,4028.0
+2002,Manitoba,Both sexes,Drowning,Number of potential years of life lost,4448.0
+2003,Manitoba,Both sexes,Drowning,Number of potential years of life lost,5765.0
+2004,Manitoba,Both sexes,Drowning,Number of potential years of life lost,4370.0
+2005,Manitoba,Both sexes,Drowning,Number of potential years of life lost,6225.0
+2006,Manitoba,Both sexes,Drowning,Number of potential years of life lost,4920.0
+2007,Manitoba,Both sexes,Drowning,Number of potential years of life lost,4100.0
+2008,Manitoba,Both sexes,Drowning,Number of potential years of life lost,5183.0
+2009,Manitoba,Both sexes,Drowning,Number of potential years of life lost,6107.0
+2000,Manitoba,Males,Unintentional injuries,Number of potential years of life lost,7246.0
+2001,Manitoba,Males,Automobile accident,Number of potential years of life lost,7430.0
+2002,Manitoba,Males,Unintentional injuries,Number of potential years of life lost,6808.0
+2003,Manitoba,Males,Unintentional injuries,Number of potential years of life lost,5583.0
+2004,Manitoba,Males,Automobile accident,Number of potential years of life lost,7191.0
+2005,Manitoba,Males,Unintentional injuries,Number of potential years of life lost,6077.0
+2006,Manitoba,Males,Unintentional injuries,Number of potential years of life lost,5922.0
+2007,Manitoba,Males,Automobile accident,Number of potential years of life lost,6621.0
+2008,Manitoba,Males,Unintentional injuries,Number of potential years of life lost,6961.0
+2009,Manitoba,Males,Stroke,Number of potential years of life lost,6193.0
+2000,Manitoba,Males,Drowning,Number of potential years of life lost,3602.0
+2001,Manitoba,Males,Drowning,Number of potential years of life lost,2885.0
+2002,Manitoba,Males,Drowning,Number of potential years of life lost,3008.0
+2003,Manitoba,Males,Drowning,Number of potential years of life lost,4448.0
+2004,Manitoba,Males,Zombie attack,Number of potential years of life lost,2953.0
+2005,Manitoba,Males,Drowning,Number of potential years of life lost,4753.0
+2006,Manitoba,Males,Drowning,Number of potential years of life lost,3725.0
+2007,Manitoba,Males,Drowning,Number of potential years of life lost,3048.0
+2008,Manitoba,Males,Drowning,Number of potential years of life lost,3228.0
+2009,Manitoba,Males,Drowning,Number of potential years of life lost,3890.0
+2000,Manitoba,Females,Automobile accident,Number of potential years of life lost,2516.0
+2001,Manitoba,Females,Unintentional injuries,Number of potential years of life lost,2633.0
+2002,Manitoba,Females,Unintentional injuries,Number of potential years of life lost,2521.0
+2003,Manitoba,Females,Automobile accident,Number of potential years of life lost,2572.0
+2004,Manitoba,Females,Unintentional injuries,Number of potential years of life lost,2916.0
+2005,Manitoba,Females,Unintentional injuries,Number of potential years of life lost,2889.0
+2006,Manitoba,Females,Automobile accident,Number of potential years of life lost,2913.0
+2007,Manitoba,Females,Unintentional injuries,Number of potential years of life lost,3338.0
+2008,Manitoba,Females,Unintentional injuries,Number of potential years of life lost,2087.0
+2009,Manitoba,Females,Automobile accident,Number of potential years of life lost,3319.0
+2000,Manitoba,Females,Drowning,Number of potential years of life lost,1258.0
+2001,Manitoba,Females,Drowning,Number of potential years of life lost,1143.0
+2002,Manitoba,Females,Drowning,Number of potential years of life lost,1440.0
+2003,Manitoba,Females,Drowning,Number of potential years of life lost,1318.0
+2004,Manitoba,Females,Drowning,Number of potential years of life lost,1418.0
+2005,Manitoba,Females,Drowning,Number of potential years of life lost,1473.0
+2006,Manitoba,Females,Drowning,Number of potential years of life lost,1195.0
+2007,Manitoba,Females,Drowning,Number of potential years of life lost,1053.0
+2008,Manitoba,Females,Drowning,Number of potential years of life lost,1955.0
+2009,Manitoba,Females,Zombie attack,Number of potential years of life lost,2218.0
+2000,Saskatchewan,Both sexes,Stroke,Number of potential years of life lost,10138.0
+2001,Saskatchewan,Both sexes,Unintentional injuries,Number of potential years of life lost,9425.0
+2002,Saskatchewan,Both sexes,Automobile accident,Number of potential years of life lost,9408.0
+2003,Saskatchewan,Both sexes,Unintentional injuries,Number of potential years of life lost,9818.0
+2004,Saskatchewan,Both sexes,Unintentional injuries,Number of potential years of life lost,8726.0
+2005,Saskatchewan,Both sexes,Automobile accident,Number of potential years of life lost,9942.0
+2006,Saskatchewan,Both sexes,Unintentional injuries,Number of potential years of life lost,9226.0
+2007,Saskatchewan,Both sexes,Unintentional injuries,Number of potential years of life lost,9339.0
+2008,Saskatchewan,Both sexes,Automobile accident,Number of potential years of life lost,11231.0
+2009,Saskatchewan,Both sexes,Unintentional injuries,Number of potential years of life lost,9869.0
+2000,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,4420.0
+2001,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,3425.0
+2002,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,3593.0
+2003,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,3745.0
+2004,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,4185.0
+2005,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,3995.0
+2006,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,3848.0
+2007,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,4690.0
+2008,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,4315.0
+2009,Saskatchewan,Both sexes,Drowning,Number of potential years of life lost,5095.0
+2000,Saskatchewan,Males,Stroke,Number of potential years of life lost,7179.0
+2001,Saskatchewan,Males,Automobile accident,Number of potential years of life lost,7114.0
+2002,Saskatchewan,Males,Unintentional injuries,Number of potential years of life lost,6506.0
+2003,Saskatchewan,Males,Unintentional injuries,Number of potential years of life lost,7458.0
+2004,Saskatchewan,Males,Automobile accident,Number of potential years of life lost,5880.0
+2005,Saskatchewan,Males,Unintentional injuries,Number of potential years of life lost,6779.0
+2006,Saskatchewan,Males,Unintentional injuries,Number of potential years of life lost,6858.0
+2007,Saskatchewan,Males,Automobile accident,Number of potential years of life lost,6754.0
+2008,Saskatchewan,Males,Unintentional injuries,Number of potential years of life lost,7424.0
+2009,Saskatchewan,Males,Unintentional injuries,Number of potential years of life lost,6859.0
+2000,Saskatchewan,Males,Drowning,Number of potential years of life lost,3250.0
+2001,Saskatchewan,Males,Drowning,Number of potential years of life lost,2913.0
+2002,Saskatchewan,Males,Drowning,Number of potential years of life lost,2823.0
+2003,Saskatchewan,Males,Drowning,Number of potential years of life lost,3015.0
+2004,Saskatchewan,Males,Zombie attack,Number of potential years of life lost,3190.0
+2005,Saskatchewan,Males,Drowning,Number of potential years of life lost,2873.0
+2006,Saskatchewan,Males,Drowning,Number of potential years of life lost,2975.0
+2007,Saskatchewan,Males,Drowning,Number of potential years of life lost,3223.0
+2008,Saskatchewan,Males,Drowning,Number of potential years of life lost,2805.0
+2009,Saskatchewan,Males,Drowning,Number of potential years of life lost,3923.0
+2000,Saskatchewan,Females,Automobile accident,Number of potential years of life lost,2959.0
+2001,Saskatchewan,Females,Stroke,Number of potential years of life lost,2311.0
+2002,Saskatchewan,Females,Unintentional injuries,Number of potential years of life lost,2902.0
+2003,Saskatchewan,Females,Automobile accident,Number of potential years of life lost,2360.0
+2004,Saskatchewan,Females,Unintentional injuries,Number of potential years of life lost,2846.0
+2005,Saskatchewan,Females,Unintentional injuries,Number of potential years of life lost,3163.0
+2006,Saskatchewan,Females,Automobile accident,Number of potential years of life lost,2367.0
+2007,Saskatchewan,Females,Unintentional injuries,Number of potential years of life lost,2585.0
+2008,Saskatchewan,Females,Unintentional injuries,Number of potential years of life lost,3808.0
+2009,Saskatchewan,Females,Automobile accident,Number of potential years of life lost,3009.0
+2000,Saskatchewan,Females,Drowning,Number of potential years of life lost,1170.0
+2001,Saskatchewan,Females,Drowning,Number of potential years of life lost,513.0
+2002,Saskatchewan,Females,Drowning,Number of potential years of life lost,770.0
+2003,Saskatchewan,Females,Drowning,Number of potential years of life lost,730.0
+2004,Saskatchewan,Females,Drowning,Number of potential years of life lost,995.0
+2005,Saskatchewan,Females,Drowning,Number of potential years of life lost,1123.0
+2006,Saskatchewan,Females,Drowning,Number of potential years of life lost,873.0
+2007,Saskatchewan,Females,Drowning,Number of potential years of life lost,1468.0
+2008,Saskatchewan,Females,Drowning,Number of potential years of life lost,1510.0
+2009,Saskatchewan,Females,Zombie attack,Number of potential years of life lost,1173.0
+2000,Alberta,Both sexes,Unintentional injuries,Number of potential years of life lost,25526.0
+2001,Alberta,Both sexes,Stroke,Number of potential years of life lost,28320.0
+2002,Alberta,Both sexes,Automobile accident,Number of potential years of life lost,26645.0
+2003,Alberta,Both sexes,Unintentional injuries,Number of potential years of life lost,22800.0
+2004,Alberta,Both sexes,Unintentional injuries,Number of potential years of life lost,21503.0
+2005,Alberta,Both sexes,Automobile accident,Number of potential years of life lost,24651.0
+2006,Alberta,Both sexes,Unintentional injuries,Number of potential years of life lost,23267.0
+2007,Alberta,Both sexes,Unintentional injuries,Number of potential years of life lost,26151.0
+2008,Alberta,Both sexes,Automobile accident,Number of potential years of life lost,23242.0
+2009,Alberta,Both sexes,Unintentional injuries,Number of potential years of life lost,20799.0
+2000,Alberta,Both sexes,Drowning,Number of potential years of life lost,12973.0
+2001,Alberta,Both sexes,Drowning,Number of potential years of life lost,16325.0
+2002,Alberta,Both sexes,Drowning,Number of potential years of life lost,14413.0
+2003,Alberta,Both sexes,Drowning,Number of potential years of life lost,13993.0
+2004,Alberta,Both sexes,Drowning,Number of potential years of life lost,14610.0
+2005,Alberta,Both sexes,Drowning,Number of potential years of life lost,13610.0
+2006,Alberta,Both sexes,Drowning,Number of potential years of life lost,11965.0
+2007,Alberta,Both sexes,Drowning,Number of potential years of life lost,14468.0
+2008,Alberta,Both sexes,Drowning,Number of potential years of life lost,16158.0
+2009,Alberta,Both sexes,Drowning,Number of potential years of life lost,15100.0
+2000,Alberta,Males,Unintentional injuries,Number of potential years of life lost,17981.0
+2001,Alberta,Males,Automobile accident,Number of potential years of life lost,20979.0
+2002,Alberta,Males,Stroke,Number of potential years of life lost,19249.0
+2003,Alberta,Males,Unintentional injuries,Number of potential years of life lost,16535.0
+2004,Alberta,Males,Automobile accident,Number of potential years of life lost,16287.0
+2005,Alberta,Males,Unintentional injuries,Number of potential years of life lost,18089.0
+2006,Alberta,Males,Unintentional injuries,Number of potential years of life lost,16926.0
+2007,Alberta,Males,Automobile accident,Number of potential years of life lost,19385.0
+2008,Alberta,Males,Unintentional injuries,Number of potential years of life lost,17942.0
+2009,Alberta,Males,Unintentional injuries,Number of potential years of life lost,15383.0
+2000,Alberta,Males,Drowning,Number of potential years of life lost,9520.0
+2001,Alberta,Males,Drowning,Number of potential years of life lost,12948.0
+2002,Alberta,Males,Drowning,Number of potential years of life lost,11260.0
+2003,Alberta,Males,Drowning,Number of potential years of life lost,10653.0
+2004,Alberta,Males,Zombie attack,Number of potential years of life lost,11218.0
+2005,Alberta,Males,Drowning,Number of potential years of life lost,10015.0
+2006,Alberta,Males,Drowning,Number of potential years of life lost,8753.0
+2007,Alberta,Males,Drowning,Number of potential years of life lost,10435.0
+2008,Alberta,Males,Drowning,Number of potential years of life lost,12080.0
+2009,Alberta,Males,Drowning,Number of potential years of life lost,11693.0
+2000,Alberta,Females,Automobile accident,Number of potential years of life lost,7545.0
+2001,Alberta,Females,Unintentional injuries,Number of potential years of life lost,7340.0
+2002,Alberta,Females,Stroke,Number of potential years of life lost,7396.0
+2003,Alberta,Females,Automobile accident,Number of potential years of life lost,6265.0
+2004,Alberta,Females,Unintentional injuries,Number of potential years of life lost,5216.0
+2005,Alberta,Females,Unintentional injuries,Number of potential years of life lost,6562.0
+2006,Alberta,Females,Automobile accident,Number of potential years of life lost,6341.0
+2007,Alberta,Females,Unintentional injuries,Number of potential years of life lost,6766.0
+2008,Alberta,Females,Unintentional injuries,Number of potential years of life lost,5300.0
+2009,Alberta,Females,Automobile accident,Number of potential years of life lost,5416.0
+2000,Alberta,Females,Drowning,Number of potential years of life lost,3453.0
+2001,Alberta,Females,Drowning,Number of potential years of life lost,3378.0
+2002,Alberta,Females,Drowning,Number of potential years of life lost,3153.0
+2003,Alberta,Females,Drowning,Number of potential years of life lost,3340.0
+2004,Alberta,Females,Drowning,Number of potential years of life lost,3393.0
+2005,Alberta,Females,Drowning,Number of potential years of life lost,3595.0
+2006,Alberta,Females,Drowning,Number of potential years of life lost,3213.0
+2007,Alberta,Females,Drowning,Number of potential years of life lost,4033.0
+2008,Alberta,Females,Drowning,Number of potential years of life lost,4078.0
+2009,Alberta,Females,Zombie attack,Number of potential years of life lost,3408.0
+2000,British Columbia,Both sexes,Unintentional injuries,Number of potential years of life lost,32256.0
+2001,British Columbia,Both sexes,Unintentional injuries,Number of potential years of life lost,34335.0
+2002,British Columbia,Both sexes,Automobile accident,Number of potential years of life lost,33413.0
+2003,British Columbia,Both sexes,Stroke,Number of potential years of life lost,31297.0
+2004,British Columbia,Both sexes,Unintentional injuries,Number of potential years of life lost,26700.0
+2005,British Columbia,Both sexes,Automobile accident,Number of potential years of life lost,28349.0
+2006,British Columbia,Both sexes,Unintentional injuries,Number of potential years of life lost,25363.0
+2007,British Columbia,Both sexes,Unintentional injuries,Number of potential years of life lost,28687.0
+2008,British Columbia,Both sexes,Automobile accident,Number of potential years of life lost,29614.0
+2009,British Columbia,Both sexes,Unintentional injuries,Number of potential years of life lost,28185.0
+2000,British Columbia,Both sexes,Drowning,Number of potential years of life lost,13370.0
+2001,British Columbia,Both sexes,Drowning,Number of potential years of life lost,12403.0
+2002,British Columbia,Both sexes,Drowning,Number of potential years of life lost,14360.0
+2003,British Columbia,Both sexes,Drowning,Number of potential years of life lost,13520.0
+2004,British Columbia,Both sexes,Drowning,Number of potential years of life lost,12955.0
+2005,British Columbia,Both sexes,Drowning,Number of potential years of life lost,11455.0
+2006,British Columbia,Both sexes,Drowning,Number of potential years of life lost,9815.0
+2007,British Columbia,Both sexes,Drowning,Number of potential years of life lost,12453.0
+2008,British Columbia,Both sexes,Drowning,Number of potential years of life lost,12283.0
+2009,British Columbia,Both sexes,Drowning,Number of potential years of life lost,13705.0
+2000,British Columbia,Males,Unintentional injuries,Number of potential years of life lost,24205.0
+2001,British Columbia,Males,Automobile accident,Number of potential years of life lost,25318.0
+2002,British Columbia,Males,Unintentional injuries,Number of potential years of life lost,25034.0
+2003,British Columbia,Males,Stroke,Number of potential years of life lost,23487.0
+2004,British Columbia,Males,Automobile accident,Number of potential years of life lost,20150.0
+2005,British Columbia,Males,Unintentional injuries,Number of potential years of life lost,20871.0
+2006,British Columbia,Males,Unintentional injuries,Number of potential years of life lost,19529.0
+2007,British Columbia,Males,Automobile accident,Number of potential years of life lost,20982.0
+2008,British Columbia,Males,Unintentional injuries,Number of potential years of life lost,21508.0
+2009,British Columbia,Males,Unintentional injuries,Number of potential years of life lost,20517.0
+2000,British Columbia,Males,Drowning,Number of potential years of life lost,9953.0
+2001,British Columbia,Males,Drowning,Number of potential years of life lost,9753.0
+2002,British Columbia,Males,Drowning,Number of potential years of life lost,10793.0
+2003,British Columbia,Males,Drowning,Number of potential years of life lost,10420.0
+2004,British Columbia,Males,Zombie attack,Number of potential years of life lost,10308.0
+2005,British Columbia,Males,Drowning,Number of potential years of life lost,8505.0
+2006,British Columbia,Males,Drowning,Number of potential years of life lost,7793.0
+2007,British Columbia,Males,Drowning,Number of potential years of life lost,9025.0
+2008,British Columbia,Males,Drowning,Number of potential years of life lost,9270.0
+2009,British Columbia,Males,Drowning,Number of potential years of life lost,10583.0
+2000,British Columbia,Females,Automobile accident,Number of potential years of life lost,8051.0
+2001,British Columbia,Females,Unintentional injuries,Number of potential years of life lost,9018.0
+2002,British Columbia,Females,Unintentional injuries,Number of potential years of life lost,8379.0
+2003,British Columbia,Females,Automobile accident,Number of potential years of life lost,7810.0
+2004,British Columbia,Females,Stroke,Number of potential years of life lost,6550.0
+2005,British Columbia,Females,Unintentional injuries,Number of potential years of life lost,7478.0
+2006,British Columbia,Females,Automobile accident,Number of potential years of life lost,5835.0
+2007,British Columbia,Females,Unintentional injuries,Number of potential years of life lost,7705.0
+2008,British Columbia,Females,Unintentional injuries,Number of potential years of life lost,8107.0
+2009,British Columbia,Females,Automobile accident,Number of potential years of life lost,7668.0
+2000,British Columbia,Females,Drowning,Number of potential years of life lost,3418.0
+2001,British Columbia,Females,Drowning,Number of potential years of life lost,2650.0
+2002,British Columbia,Females,Drowning,Number of potential years of life lost,3568.0
+2003,British Columbia,Females,Drowning,Number of potential years of life lost,3100.0
+2004,British Columbia,Females,Drowning,Number of potential years of life lost,2648.0
+2005,British Columbia,Females,Drowning,Number of potential years of life lost,2950.0
+2006,British Columbia,Females,Drowning,Number of potential years of life lost,2023.0
+2007,British Columbia,Females,Drowning,Number of potential years of life lost,3428.0
+2008,British Columbia,Females,Drowning,Number of potential years of life lost,3013.0
+2009,British Columbia,Females,Zombie attack,Number of potential years of life lost,3123.0
+2000,Yukon,Both sexes,Unintentional injuries,Number of potential years of life lost,528.0
+2001,Yukon,Both sexes,Unintentional injuries,Number of potential years of life lost,130.0
+2002,Yukon,Both sexes,Automobile accident,Number of potential years of life lost,288.0
+2003,Yukon,Both sexes,Unintentional injuries,Number of potential years of life lost,558.0
+2004,Yukon,Both sexes,Stroke,Number of potential years of life lost,757.0
+2005,Yukon,Both sexes,Automobile accident,Number of potential years of life lost,573.0
+2006,Yukon,Both sexes,Unintentional injuries,Number of potential years of life lost,658.0
+2007,Yukon,Both sexes,Unintentional injuries,Number of potential years of life lost,528.0
+2008,Yukon,Both sexes,Automobile accident,Number of potential years of life lost,485.0
+2009,Yukon,Both sexes,Unintentional injuries,Number of potential years of life lost,615.0
+2000,Yukon,Both sexes,Drowning,Number of potential years of life lost,283.0
+2001,Yukon,Both sexes,Drowning,Number of potential years of life lost,125.0
+2002,Yukon,Both sexes,Drowning,Number of potential years of life lost,200.0
+2003,Yukon,Both sexes,Drowning,Number of potential years of life lost,180.0
+2004,Yukon,Both sexes,Drowning,Number of potential years of life lost,153.0
+2005,Yukon,Both sexes,Drowning,Number of potential years of life lost,173.0
+2006,Yukon,Both sexes,Drowning,Number of potential years of life lost,73.0
+2007,Yukon,Both sexes,Drowning,Number of potential years of life lost,80.0
+2008,Yukon,Both sexes,Drowning,Number of potential years of life lost,25.0
+2009,Yukon,Both sexes,Drowning,Number of potential years of life lost,45.0
+2000,Yukon,Males,Unintentional injuries,Number of potential years of life lost,428.0
+2001,Yukon,Males,Automobile accident,Number of potential years of life lost,118.0
+2002,Yukon,Males,Unintentional injuries,Number of potential years of life lost,218.0
+2003,Yukon,Males,Unintentional injuries,Number of potential years of life lost,420.0
+2004,Yukon,Males,Automobile accident,Number of potential years of life lost,507.0
+2005,Yukon,Males,Stroke,Number of potential years of life lost,448.0
+2006,Yukon,Males,Unintentional injuries,Number of potential years of life lost,360.0
+2007,Yukon,Males,Automobile accident,Number of potential years of life lost,313.0
+2008,Yukon,Males,Unintentional injuries,Number of potential years of life lost,393.0
+2009,Yukon,Males,Unintentional injuries,Number of potential years of life lost,318.0
+2000,Yukon,Males,Drowning,Number of potential years of life lost,240.0
+2001,Yukon,Males,Drowning,Number of potential years of life lost,103.0
+2002,Yukon,Males,Drowning,Number of potential years of life lost,135.0
+2003,Yukon,Males,Drowning,Number of potential years of life lost,180.0
+2004,Yukon,Males,Zombie attack,Number of potential years of life lost,153.0
+2005,Yukon,Males,Drowning,Number of potential years of life lost,145.0
+2006,Yukon,Males,Drowning,Number of potential years of life lost,45.0
+2007,Yukon,Males,Drowning,Number of potential years of life lost,80.0
+2008,Yukon,Males,Drowning,Number of potential years of life lost,25.0
+2009,Yukon,Males,Drowning,Number of potential years of life lost,45.0
+2000,Yukon,Females,Automobile accident,Number of potential years of life lost,100.0
+2001,Yukon,Females,Unintentional injuries,Number of potential years of life lost,13.0
+2002,Yukon,Females,Unintentional injuries,Number of potential years of life lost,70.0
+2003,Yukon,Females,Automobile accident,Number of potential years of life lost,138.0
+2004,Yukon,Females,Unintentional injuries,Number of potential years of life lost,250.0
+2005,Yukon,Females,Stroke,Number of potential years of life lost,125.0
+2006,Yukon,Females,Automobile accident,Number of potential years of life lost,298.0
+2007,Yukon,Females,Unintentional injuries,Number of potential years of life lost,215.0
+2008,Yukon,Females,Unintentional injuries,Number of potential years of life lost,93.0
+2009,Yukon,Females,Automobile accident,Number of potential years of life lost,298.0
+2000,Yukon,Females,Drowning,Number of potential years of life lost,43.0
+2001,Yukon,Females,Drowning,Number of potential years of life lost,23.0
+2002,Yukon,Females,Drowning,Number of potential years of life lost,65.0
+2003,Yukon,Females,Drowning,Number of potential years of life lost,0.0
+2004,Yukon,Females,Drowning,Number of potential years of life lost,0.0
+2005,Yukon,Females,Drowning,Number of potential years of life lost,28.0
+2006,Yukon,Females,Drowning,Number of potential years of life lost,28.0
+2007,Yukon,Females,Drowning,Number of potential years of life lost,0.0
+2008,Yukon,Females,Drowning,Number of potential years of life lost,0.0
+2009,Yukon,Females,Zombie attack,Number of potential years of life lost,0.0
+2000,Northwest Territories,Both sexes,Unintentional injuries,Number of potential years of life lost,839.0
+2001,Northwest Territories,Both sexes,Unintentional injuries,Number of potential years of life lost,670.0
+2002,Northwest Territories,Both sexes,Automobile accident,Number of potential years of life lost,402.0
+2003,Northwest Territories,Both sexes,Unintentional injuries,Number of potential years of life lost,575.0
+2004,Northwest Territories,Both sexes,Unintentional injuries,Number of potential years of life lost,210.0
+2005,Northwest Territories,Both sexes,Automobile accident,Number of potential years of life lost,523.0
+2006,Northwest Territories,Both sexes,Stroke,Number of potential years of life lost,952.0
+2007,Northwest Territories,Both sexes,Unintentional injuries,Number of potential years of life lost,815.0
+2008,Northwest Territories,Both sexes,Automobile accident,Number of potential years of life lost,520.0
+2009,Northwest Territories,Both sexes,Unintentional injuries,Number of potential years of life lost,648.0
+2000,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,265.0
+2001,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,340.0
+2002,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,350.0
+2003,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,380.0
+2004,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,413.0
+2005,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,150.0
+2006,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,213.0
+2007,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,398.0
+2008,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,420.0
+2009,Northwest Territories,Both sexes,Drowning,Number of potential years of life lost,343.0
+2000,Northwest Territories,Males,Unintentional injuries,Number of potential years of life lost,530.0
+2001,Northwest Territories,Males,Automobile accident,Number of potential years of life lost,448.0
+2002,Northwest Territories,Males,Unintentional injuries,Number of potential years of life lost,328.0
+2003,Northwest Territories,Males,Unintentional injuries,Number of potential years of life lost,470.0
+2004,Northwest Territories,Males,Automobile accident,Number of potential years of life lost,168.0
+2005,Northwest Territories,Males,Unintentional injuries,Number of potential years of life lost,495.0
+2006,Northwest Territories,Males,Stroke,Number of potential years of life lost,667.0
+2007,Northwest Territories,Males,Automobile accident,Number of potential years of life lost,543.0
+2008,Northwest Territories,Males,Unintentional injuries,Number of potential years of life lost,300.0
+2009,Northwest Territories,Males,Unintentional injuries,Number of potential years of life lost,443.0
+2000,Northwest Territories,Males,Drowning,Number of potential years of life lost,265.0
+2001,Northwest Territories,Males,Drowning,Number of potential years of life lost,323.0
+2002,Northwest Territories,Males,Drowning,Number of potential years of life lost,260.0
+2003,Northwest Territories,Males,Drowning,Number of potential years of life lost,380.0
+2004,Northwest Territories,Males,Zombie attack,Number of potential years of life lost,343.0
+2005,Northwest Territories,Males,Drowning,Number of potential years of life lost,150.0
+2006,Northwest Territories,Males,Drowning,Number of potential years of life lost,180.0
+2007,Northwest Territories,Males,Drowning,Number of potential years of life lost,303.0
+2008,Northwest Territories,Males,Drowning,Number of potential years of life lost,325.0
+2009,Northwest Territories,Males,Drowning,Number of potential years of life lost,233.0
+2000,Northwest Territories,Females,Automobile accident,Number of potential years of life lost,309.0
+2001,Northwest Territories,Females,Unintentional injuries,Number of potential years of life lost,223.0
+2002,Northwest Territories,Females,Unintentional injuries,Number of potential years of life lost,75.0
+2003,Northwest Territories,Females,Automobile accident,Number of potential years of life lost,105.0
+2004,Northwest Territories,Females,Unintentional injuries,Number of potential years of life lost,43.0
+2005,Northwest Territories,Females,Unintentional injuries,Number of potential years of life lost,28.0
+2006,Northwest Territories,Females,Automobile accident,Number of potential years of life lost,285.0
+2007,Northwest Territories,Females,Stroke,Number of potential years of life lost,272.0
+2008,Northwest Territories,Females,Unintentional injuries,Number of potential years of life lost,220.0
+2009,Northwest Territories,Females,Automobile accident,Number of potential years of life lost,205.0
+2000,Northwest Territories,Females,Drowning,Number of potential years of life lost,0.0
+2001,Northwest Territories,Females,Drowning,Number of potential years of life lost,18.0
+2002,Northwest Territories,Females,Drowning,Number of potential years of life lost,90.0
+2003,Northwest Territories,Females,Drowning,Number of potential years of life lost,0.0
+2004,Northwest Territories,Females,Drowning,Number of potential years of life lost,70.0
+2005,Northwest Territories,Females,Drowning,Number of potential years of life lost,0.0
+2006,Northwest Territories,Females,Drowning,Number of potential years of life lost,33.0
+2007,Northwest Territories,Females,Drowning,Number of potential years of life lost,95.0
+2008,Northwest Territories,Females,Drowning,Number of potential years of life lost,95.0
+2009,Northwest Territories,Females,Zombie attack,Number of potential years of life lost,110.0
+2000,Nunavut,Both sexes,Unintentional injuries,Number of potential years of life lost,400.0
+2001,Nunavut,Both sexes,Unintentional injuries,Number of potential years of life lost,595.0
+2002,Nunavut,Both sexes,Automobile accident,Number of potential years of life lost,473.0
+2003,Nunavut,Both sexes,Unintentional injuries,Number of potential years of life lost,1168.0
+2004,Nunavut,Both sexes,Unintentional injuries,Number of potential years of life lost,515.0
+2005,Nunavut,Both sexes,Automobile accident,Number of potential years of life lost,403.0
+2006,Nunavut,Both sexes,Unintentional injuries,Number of potential years of life lost,665.0
+2007,Nunavut,Both sexes,Stroke,Number of potential years of life lost,517.0
+2008,Nunavut,Both sexes,Automobile accident,Number of potential years of life lost,588.0
+2009,Nunavut,Both sexes,Unintentional injuries,Number of potential years of life lost,680.0
+2000,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1238.0
+2001,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1365.0
+2002,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1243.0
+2003,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1573.0
+2004,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1220.0
+2005,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1090.0
+2006,Nunavut,Both sexes,Drowning,Number of potential years of life lost,735.0
+2007,Nunavut,Both sexes,Drowning,Number of potential years of life lost,995.0
+2008,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1160.0
+2009,Nunavut,Both sexes,Drowning,Number of potential years of life lost,1033.0
+2000,Nunavut,Males,Unintentional injuries,Number of potential years of life lost,350.0
+2001,Nunavut,Males,Automobile accident,Number of potential years of life lost,505.0
+2002,Nunavut,Males,Unintentional injuries,Number of potential years of life lost,265.0
+2003,Nunavut,Males,Unintentional injuries,Number of potential years of life lost,844.0
+2004,Nunavut,Males,Automobile accident,Number of potential years of life lost,418.0
+2005,Nunavut,Males,Unintentional injuries,Number of potential years of life lost,403.0
+2006,Nunavut,Males,Unintentional injuries,Number of potential years of life lost,613.0
+2007,Nunavut,Males,Automobile accident,Number of potential years of life lost,399.0
+2008,Nunavut,Males,Stroke,Number of potential years of life lost,445.0
+2009,Nunavut,Males,Unintentional injuries,Number of potential years of life lost,423.0
+2000,Nunavut,Males,Drowning,Number of potential years of life lost,885.0
+2001,Nunavut,Males,Drowning,Number of potential years of life lost,1193.0
+2002,Nunavut,Males,Drowning,Number of potential years of life lost,1143.0
+2003,Nunavut,Males,Drowning,Number of potential years of life lost,1308.0
+2004,Nunavut,Males,Zombie attack,Number of potential years of life lost,938.0
+2005,Nunavut,Males,Drowning,Number of potential years of life lost,855.0
+2006,Nunavut,Males,Drowning,Number of potential years of life lost,603.0
+2007,Nunavut,Males,Drowning,Number of potential years of life lost,738.0
+2008,Nunavut,Males,Drowning,Number of potential years of life lost,960.0
+2009,Nunavut,Males,Drowning,Number of potential years of life lost,885.0
+2000,Nunavut,Females,Automobile accident,Number of potential years of life lost,50.0
+2001,Nunavut,Females,Unintentional injuries,Number of potential years of life lost,90.0
+2002,Nunavut,Females,Unintentional injuries,Number of potential years of life lost,208.0
+2003,Nunavut,Females,Automobile accident,Number of potential years of life lost,324.0
+2004,Nunavut,Females,Unintentional injuries,Number of potential years of life lost,98.0
+2005,Nunavut,Females,Unintentional injuries,Number of potential years of life lost,0.0
+2006,Nunavut,Females,Automobile accident,Number of potential years of life lost,53.0
+2007,Nunavut,Females,Unintentional injuries,Number of potential years of life lost,118.0
+2008,Nunavut,Females,Stroke,Number of potential years of life lost,143.0
+2009,Nunavut,Females,Automobile accident,Number of potential years of life lost,258.0
+2000,Nunavut,Females,Drowning,Number of potential years of life lost,353.0
+2001,Nunavut,Females,Drowning,Number of potential years of life lost,173.0
+2002,Nunavut,Females,Drowning,Number of potential years of life lost,100.0
+2003,Nunavut,Females,Drowning,Number of potential years of life lost,265.0
+2004,Nunavut,Females,Drowning,Number of potential years of life lost,283.0
+2005,Nunavut,Females,Drowning,Number of potential years of life lost,235.0
+2006,Nunavut,Females,Drowning,Number of potential years of life lost,133.0
+2007,Nunavut,Females,Drowning,Number of potential years of life lost,258.0
+2008,Nunavut,Females,Drowning,Number of potential years of life lost,200.0
+2009,Nunavut,Females,Zombie attack,Number of potential years of life lost,148.0
