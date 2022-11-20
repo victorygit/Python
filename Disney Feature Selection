@@ -1,0 +1,21 @@
+import os
+import pandas as pd
+import datetime
+from datetime import datetime
+import math
+import numpy as np
+
+
+
+df_whole = pd.DataFrame()
+ride_file = "G:\\My Drive\\Cindy\\IB11\\Math IA\\ridedatanew\\rides.csv"
+df_ride = pd.read_csv(ride_file, header=0)
+meta_file = "G:\\My Drive\\Cindy\\IB11\\Math IA\\Metadata\\metadata.csv"
+df_meta = pd.read_csv(meta_file, header=0)
+print(df_ride.head(5))
+print(df_meta.head(5))
+df_whole = pd.merge(df_ride, df_meta, left_on='date', right_on='DATE', how='inner')
+#df_meta.info()
+print(df_whole["YEAR"].head(5))
+
+print("---------------- Done ----------------------")
