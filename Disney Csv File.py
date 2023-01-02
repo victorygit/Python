@@ -46,10 +46,15 @@ for root,dirs,files in os.walk(directory):
         df = pd.read_csv("G:\\My Drive\\Cindy\\IB11\\Math IA\\ridedata\\"+file, header=0)
         df_whole = df_whole.append(df)
 df_whole.info()
+# Get time from datetime field
 df_whole['oritime'] = df_whole.apply(lambda row: gettime(row), axis=1)
+# Get hour
 df_whole['Hour'] = df_whole.apply(lambda row: gethour(row), axis=1)
+#Get minis
 df_whole['Mins'] = df_whole.apply(lambda row: getmins(row), axis=1)
+# Get 15 mins interval 
 df_whole['NewTime'] = df_whole.apply(lambda row: getnewTime(row), axis=1)
+# deal with missing value
 df_whole['Waittime']  = df_whole.apply(lambda row: cleanwaittime(row), axis=1)
 df_whole['Waittime'] = df_whole['Waittime'].fillna(method='ffill')
 #print(df_whole[df_whole.SPOSTMIN == -999])

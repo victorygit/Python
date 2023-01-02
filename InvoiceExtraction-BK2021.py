@@ -3,7 +3,7 @@ url = "data/pdf/Oakville Hydro 20200130.pdf"
 import pdfplumber
 import os
 import  pandas as pd 
-dir_str= 'D:/Documents/BI-TEK/Tax Return/2021/expence receipt/'
+dir_str= 'D:/Documents/BI-TEK/Tax Return/2022/expence receipt/'
 directory = os.fsencode(dir_str)
 df= pd.DataFrame([], columns=['Filename', 'Bill Period', 'Amount', 'Tax'])
 Tax_amount = 0
