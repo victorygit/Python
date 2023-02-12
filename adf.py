@@ -1,4 +1,5 @@
 from airflow import DAG
+import time
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 from azure.common.credentials import ServicePrincipalCredentials
@@ -6,6 +7,10 @@ from azure.identity import ClientSecretCredential
 from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.datafactory import DataFactoryManagementClient
 from datetime import datetime, timedelta
+from airflow.utils.trigger_rule import TriggerRule
+from airflow.operators.empty import EmptyOperator
+from airflow.providers.microsoft.azure.sensors.data_factory import AzureDataFactoryPipelineRunStatusSensor
+
 
 # Default arguments for the DAG
 default_args = {
@@ -23,6 +28,8 @@ dag = DAG(
     schedule_interval=timedelta(days=1),
 )
 
+begin = EmptyOperator(task_id="begin", dag=dag)
+end = EmptyOperator(task_id="end",trigger_rule=TriggerRule.ALL_DONE,dag=dag)
 # Define a function to run the pipeline
 
 def run_pipeline1(**kwargs):
@@ -43,7 +50,7 @@ def run_pipeline1(**kwargs):
 
     # Run the pipeline
     pipeline_name = 'PL_Job1'
-    run_response = client.ppipelines.create_run(
+    run_response = client.pipelines.create_run(
     'oceanis-rg-dld-sb',
     'oceanis-adf-dldtest-sb',
     pipeline_name,
@@ -51,15 +58,18 @@ def run_pipeline1(**kwargs):
     run_id = run_response.run_id
 
     # Print the run ID
-    print(f'Pipeline run ID: {run_id}')
+    print(f'Pipeline run ID: {run_id}') 
+    while client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('InProgress', 'Queued'):
+        time.sleep(20) 
 
 def run_pipeline2(**kwargs):
     # Create the client
-    credentials = ServicePrincipalCredentials(
+    credentials = ClientSecretCredential(
         client_id='12c29c27-283d-46c8-9b3a-1515836cf62a',
-        secret='QCK8Q~zLvTGRySRM6UtfafiVcyBvo6CmTSkBXcpk',
-        tenant='962f21cf-93ea-449f-99bf-402e2b2987b2',
+        client_secret='QCK8Q~zLvTGRySRM6UtfafiVcyBvo6CmTSkBXcpk',
+        tenant_id='962f21cf-93ea-449f-99bf-402e2b2987b2',
     )
+    
     client = DataFactoryManagementClient(credentials, 'a4019287-f428-40ff-8fb5-3224e84aeb1e')
 
     # Run the pipeline
@@ -70,9 +80,13 @@ def run_pipeline2(**kwargs):
     pipeline_name,
     )
     run_id = run_response.run_id
-
     # Print the run ID
     print(f'Pipeline run ID: {run_id}')
+
+    while client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('InProgress', 'Queued'):
+        time.sleep(20) 
+
+
 # Create a PythonOperator to run the pipeline
 run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline1',
@@ -85,9 +99,12 @@ run_pipeline_operator2 = PythonOperator(
      python_callable=run_pipeline2,
      provide_context=True,
      dag=dag,
+     trigger_rule= 'all_success'
  )
+
+
 sleep = BashOperator(task_id='sleep',
                      bash_command='sleep 5',
                      dag=dag)
 # Set the dependencies
-sleep >> run_pipeline_operator1 >> run_pipeline_operator2
+begin >> sleep >> run_pipeline_operator1 >> run_pipeline_operator2 >> end
