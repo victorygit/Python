@@ -11,6 +11,8 @@ from airflow.utils.trigger_rule import TriggerRule
 from airflow.operators.empty import EmptyOperator
 from airflow.providers.microsoft.azure.sensors.data_factory import AzureDataFactoryPipelineRunStatusSensor
 from airflow.exceptions import AirflowFailException
+from airflow.models import Variable
+
 
 # Default arguments for the DAG
 default_args = {
@@ -41,7 +43,7 @@ def run_pipeline1(**kwargs):
     #)
     credentials = ClientSecretCredential(
         client_id='12c29c27-283d-46c8-9b3a-1515836cf62a',
-        client_secret='QCK8Q~zLvTGRySRM6UtfafiVcyBvo6CmTSkBXcpk',
+        client_secret = Variable.get("Client_Secret"),
         tenant_id='962f21cf-93ea-449f-99bf-402e2b2987b2',
     )
     
@@ -73,7 +75,7 @@ def run_pipeline2(**kwargs):
     # Create the client
     credentials = ClientSecretCredential(
         client_id='12c29c27-283d-46c8-9b3a-1515836cf62a',
-        client_secret='QCK8Q~zLvTGRySRM6UtfafiVcyBvo6CmTSkBXcpk',
+        client_secret = Variable.get("Client_Secret"),
         tenant_id='962f21cf-93ea-449f-99bf-402e2b2987b2',
     )
     
