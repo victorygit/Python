@@ -25,7 +25,7 @@ default_args = {
 
 # Create the DAG
 dag = DAG(
-    'run_azure_data_factory_pipeline',
+    'curated_pipelines',
     default_args=default_args,
     schedule_interval=timedelta(days=1),
 )
@@ -51,7 +51,7 @@ def run_pipeline1(**kwargs):
     #client = ResourceManagementClient(credentials, 'a4019287-f428-40ff-8fb5-3224e84aeb1e')
 
     # Run the pipeline
-    pipeline_name = 'PL_Job1'
+    pipeline_name = kwargs['Pipelinename']
     run_response = client.pipelines.create_run(
     'oceanis-rg-dld-sb',
     'oceanis-adf-dldtest-sb',
@@ -71,53 +71,12 @@ def run_pipeline1(**kwargs):
     if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
         raise AirflowFailException("Pipeline failed")
 
-def run_pipeline2(**kwargs):
-    # Create the client
-    credentials = ClientSecretCredential(
-        client_id='12c29c27-283d-46c8-9b3a-1515836cf62a',
-        client_secret = Variable.get("Client_Secret"),
-        tenant_id='962f21cf-93ea-449f-99bf-402e2b2987b2',
-    )
-    
-    client = DataFactoryManagementClient(credentials, 'a4019287-f428-40ff-8fb5-3224e84aeb1e')
-
-    # Run the pipeline
-    pipeline_name = 'PL_Job2'
-    run_response = client.pipelines.create_run(
-    'oceanis-rg-dld-sb',
-    'oceanis-adf-dldtest-sb',
-    pipeline_name,
-    None,
-    None,
-    None,
-    None,
-    {"Waitime":kwargs['waittime'],"Job":kwargs['job']}
-    )
-    run_id = run_response.run_id
-    # Print the run ID
-    print(f'Pipeline run ID: {run_id}')
-
-    while client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('InProgress', 'Queued'):
-        time.sleep(20) 
-    if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
-        raise AirflowFailException("Pipeline failed")
-
-
-# Create a PythonOperator to run the pipeline
 run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline1',
      python_callable=run_pipeline1,
      provide_context=True,
-     op_kwargs={"waittime":"15","job":"100"},
+     op_kwargs={"Pipelinename":"PL_Curated_Job","waittime":"15","job":"100"},
      dag=dag,
- )
-run_pipeline_operator2 = PythonOperator(
-     task_id='run_pipeline2',
-     python_callable=run_pipeline2,
-     provide_context=True,
-     op_kwargs={"waittime":"5","job":"200"},
-     dag=dag,
-     trigger_rule= 'all_success'
  )
 
 
@@ -125,5 +84,4 @@ sleep = BashOperator(task_id='sleep',
                      bash_command='sleep 5',
                      dag=dag)
 # Set the dependencies
-begin >> sleep >> run_pipeline_operator1 >> end
-sleep >> run_pipeline_operator2 >> end
+begin >> run_pipeline_operator1 >> end
