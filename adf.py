@@ -38,7 +38,7 @@ def run_pipeline1(**kwargs):
     # Create the client
     #credentials = ServicePrincipalCredentials(
     #    client_id='12c29c27-283d-46c8-9b3a-1515836cf62a',
-    #    secret='QCK8Q~zLvTGRySRM6UtfafiVcyBvo6CmTSkBXcpk',
+    #    secret='',
     #    tenant='962f21cf-93ea-449f-99bf-402e2b2987b2',
     #)
     credentials = ClientSecretCredential(
