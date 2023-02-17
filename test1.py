@@ -1,6 +1,6 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-df = pd.DataFrame([[1,2],[2,4],[3,9],[4,16]], columns= ["a","b"])
-print(df)
-df.plot(kind = 'line', x = 'a', y = 'b')
-plt.show()
+str1 = ",p1,p2"
+str2 = "p2,p1"
+list1 = str1.split(",")
+list2 = str2.split(",")
+if list1.sort() == list2.sort():
+    print ("correct")

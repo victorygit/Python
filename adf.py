@@ -1,5 +1,7 @@
 from airflow import DAG
 import time
+import json
+from pytz import timezone
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 from azure.common.credentials import ServicePrincipalCredentials
@@ -17,7 +19,7 @@ from airflow.models import Variable
 # Default arguments for the DAG
 default_args = {
     'owner': 'me',
-    'start_date': datetime(2023, 2, 11),
+    'start_date': datetime(2023, 2, 11,5,0,0,tzinfo=timezone('EST')),
     'depends_on_past': False,
     'retries': 0,
     'retry_delay': timedelta(minutes=10),
@@ -70,6 +72,11 @@ def run_pipeline1(**kwargs):
         time.sleep(20) 
     if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
         raise AirflowFailException("Pipeline failed")
+    Variable.set('curated_log',Variable.get('curated_log')+',pipeline1')
+    Job_Dependency_dict = Variable.get("Job_Dependency",deserialize_json=True)
+    log_str = Job_Dependency_dict["Log"] +',pipeline1'
+    Job_Dependency_dict["Log"] = log_str
+    Variable.set('Job_Dependency',json.dumps(Job_Dependency_dict), serialize_json= False)
 
 def run_pipeline2(**kwargs):
     # Create the client
@@ -101,7 +108,11 @@ def run_pipeline2(**kwargs):
         time.sleep(20) 
     if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
         raise AirflowFailException("Pipeline failed")
-
+    Variable.set('curated_log',Variable.get('curated_log')+',pipeline2')
+    Job_Dependency_dict = Variable.get("Job_Dependency",deserialize_json=True)
+    log_str = Job_Dependency_dict["Log"] +',pipeline2'
+    Job_Dependency_dict["Log"] = log_str
+    Variable.set('Job_Dependency',json.dumps(Job_Dependency_dict), serialize_json= False)
 
 # Create a PythonOperator to run the pipeline
 run_pipeline_operator1 = PythonOperator(

@@ -1,5 +1,7 @@
 from airflow import DAG
 import time
+import json
+from pytz import timezone
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 from azure.common.credentials import ServicePrincipalCredentials
@@ -17,7 +19,7 @@ from airflow.models import Variable
 # Default arguments for the DAG
 default_args = {
     'owner': 'me',
-    'start_date': datetime(2023, 2, 11),
+    'start_date': datetime(2023, 2, 11,7,0,0,tzinfo=timezone('EST')),
     'depends_on_past': False,
     'retries': 0,
     'retry_delay': timedelta(minutes=10),
@@ -46,10 +48,25 @@ def run_pipeline1(**kwargs):
         client_secret = Variable.get("Client_Secret"),
         tenant_id='962f21cf-93ea-449f-99bf-402e2b2987b2',
     )
-    
+    dag_continue = 'N'    
+    #runtime_var = Variable.get("curated_runtime",deserialize_json=True)
+    dependency_json = Variable.get("Job_Dependency",deserialize_json=True)    
+    #for var in runtime_var:
+    #    print(var)
+    #    if var["finish"] == 'N':
+    #        dag_continue = 'N'
+    #        print(var["pipeline"], var["finish"])
+    #        exit
+    print("job log:", dependency_json["Log"])
+    dependency_str = dependency_json["Dependency"] 
+    log_str = dependency_json["Log"]
+    if dependency_str.split(",").sort() == log_str.split(",").sort():
+        dag_continue = 'Y'
+    if dag_continue == 'N':
+        return
     client = DataFactoryManagementClient(credentials, 'a4019287-f428-40ff-8fb5-3224e84aeb1e')
     #client = ResourceManagementClient(credentials, 'a4019287-f428-40ff-8fb5-3224e84aeb1e')
-
+ 
     # Run the pipeline
     pipeline_name = kwargs['Pipelinename']
     run_response = client.pipelines.create_run(
@@ -70,7 +87,11 @@ def run_pipeline1(**kwargs):
         time.sleep(20) 
     if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
         raise AirflowFailException("Pipeline failed")
+    
+    dependency_json["Log"] = ""
+    Variable.set('Job_Dependency',json.dumps(dependency_json), serialize_json= False)
 
+    
 run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline1',
      python_callable=run_pipeline1,
@@ -79,9 +100,11 @@ run_pipeline_operator1 = PythonOperator(
      dag=dag,
  )
 
-
 sleep = BashOperator(task_id='sleep',
                      bash_command='sleep 5',
                      dag=dag)
+
+
+                  
 # Set the dependencies
 begin >> run_pipeline_operator1 >> end
