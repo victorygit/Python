@@ -19,7 +19,7 @@ from airflow.models import Variable
 # Default arguments for the DAG
 default_args = {
     'owner': 'me',
-    'start_date': datetime(2023, 2, 11,5,0,0,tzinfo=timezone('EST')),
+    'start_date': datetime(2023, 2, 18,5,0,0),
     'depends_on_past': False,
     'retries': 0,
     'retry_delay': timedelta(minutes=10),
@@ -136,5 +136,5 @@ sleep = BashOperator(task_id='sleep',
                      bash_command='sleep 5',
                      dag=dag)
 # Set the dependencies
-begin >> sleep >> run_pipeline_operator1 >> end
-sleep >> run_pipeline_operator2 >> end
+begin >>  run_pipeline_operator1 >> end
+begin >> run_pipeline_operator2 >> end

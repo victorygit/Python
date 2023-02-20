@@ -19,7 +19,7 @@ from airflow.models import Variable
 # Default arguments for the DAG
 default_args = {
     'owner': 'me',
-    'start_date': datetime(2023, 2, 11,7,0,0,tzinfo=timezone('EST')),
+    'start_date': datetime(2023, 2, 18,7,0,0,tzinfo=timezone('EST')),
     'depends_on_past': False,
     'retries': 0,
     'retry_delay': timedelta(minutes=10),
@@ -60,7 +60,12 @@ def run_pipeline1(**kwargs):
     print("job log:", dependency_json["Log"])
     dependency_str = dependency_json["Dependency"] 
     log_str = dependency_json["Log"]
-    if dependency_str.split(",").sort() == log_str.split(",").sort():
+    dependency_list = dependency_str.split(",")  
+    log_list = log_str.split(",")
+    #Remove duplicated job
+    dependency_list = list(dict.fromkeys(dependency_list))
+    log_list = list(dict.fromkeys(log_list))
+    if dependency_list.sort() == log_list.sort():
         dag_continue = 'Y'
     if dag_continue == 'N':
         return
@@ -91,7 +96,7 @@ def run_pipeline1(**kwargs):
     dependency_json["Log"] = ""
     Variable.set('Job_Dependency',json.dumps(dependency_json), serialize_json= False)
 
-    
+
 run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline1',
      python_callable=run_pipeline1,

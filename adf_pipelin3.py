@@ -14,12 +14,12 @@ from airflow.operators.empty import EmptyOperator
 from airflow.providers.microsoft.azure.sensors.data_factory import AzureDataFactoryPipelineRunStatusSensor
 from airflow.exceptions import AirflowFailException
 from airflow.models import Variable
-
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 
 # Default arguments for the DAG
 default_args = {
     'owner': 'me',
-    'start_date': datetime(2023, 2, 11,5,0,0,tzinfo=timezone('EST')),
+    'start_date': datetime(2023, 2, 18,5,0,0,tzinfo=timezone('EST')),
     'depends_on_past': False,
     'retries': 0,
     'retry_delay': timedelta(minutes=10),
@@ -53,7 +53,7 @@ def run_pipeline1(**kwargs):
     #client = ResourceManagementClient(credentials, 'a4019287-f428-40ff-8fb5-3224e84aeb1e')
 
     # Run the pipeline
-    pipeline_name = 'PL_Job3'
+    pipeline_name = kwargs['pipeline_name']
     run_response = client.pipelines.create_run(
     'oceanis-rg-dld-sb',
     'oceanis-adf-dldtest-sb',
@@ -83,13 +83,21 @@ run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline3',
      python_callable=run_pipeline1,
      provide_context=True,
-     op_kwargs={"waittime":"15","job":"300"},
+     op_kwargs={"pipeline_name":'PL_Job3',"waittime":"15","job":"300"},
      dag=dag,
  )
 
+trigger_target = TriggerDagRunOperator(
+        task_id='trigger_Curated',
+        trigger_dag_id='curated_pipelines',
+        execution_date='{{ ds }}',
+        reset_dag_run=False,
+        wait_for_completion=True,
+        dag = dag,
+    )
 
 sleep = BashOperator(task_id='sleep',
                      bash_command='sleep 5',
                      dag=dag)
 # Set the dependencies
-begin >> sleep >> run_pipeline_operator1 >> end
+begin >> sleep >> run_pipeline_operator1 >> trigger_target >> end
