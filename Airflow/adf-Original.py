@@ -18,7 +18,7 @@ default_args = {
 dag = DAG(
     'run_azure_data_factory_pipeline',
     default_args=default_args,
-    schedule_interval=timedelta(hours=1),
+    schedule_interval=timedelta(days=1),
 )
 
 # Define a function to run the pipeline
