@@ -72,8 +72,8 @@ def run_pipeline1(**kwargs):
         time.sleep(20) 
     if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
         raise AirflowFailException("Pipeline failed")
-   
-
+    
+  
 run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline1',
      python_callable=run_pipeline1,
@@ -106,6 +106,5 @@ sleep = BashOperator(task_id='sleep',
 
                   
 # Set the dependencies
-begin >> sensing_Task1  >> end
-begin >> sensing_Task2  >> end
-begin >> run_pipeline_operator1 >> end
+begin >> sensing_Task1  >> run_pipeline_operator1 >> end
+begin >> sensing_Task2 >> run_pipeline_operator1 >> end

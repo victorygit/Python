@@ -52,6 +52,14 @@ trigger_target1 = TriggerDagRunOperator(
         wait_for_completion=True,
         dag = dag,
     )
+trigger_target3 = TriggerDagRunOperator(
+        task_id='trigger_curatedjob',
+        trigger_dag_id='curated_pipelines_sensor',
+        execution_date='{{ ds }}',
+        reset_dag_run=False,
+        wait_for_completion=True,
+        dag = dag,
+    )
 
 
 sleep = BashOperator(task_id='sleep',
@@ -60,3 +68,4 @@ sleep = BashOperator(task_id='sleep',
 # Set the dependencies
 trigger_target1
 trigger_target2 
+trigger_target3 
