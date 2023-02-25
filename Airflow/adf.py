@@ -19,7 +19,7 @@ from airflow.models import Variable
 # Default arguments for the DAG
 default_args = {
     'owner': 'me',
-    'start_date': datetime(2023, 2, 18,5,0,0),
+    'start_date': datetime(2023, 2, 18,7,0,0,tzinfo=timezone('EST')),
     'depends_on_past': False,
     'retries': 0,
     'retry_delay': timedelta(minutes=10),

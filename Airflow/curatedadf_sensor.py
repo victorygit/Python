@@ -28,7 +28,7 @@ default_args = {
 
 # Create the DAG
 dag = DAG(
-    'curated_pipelines',
+    'curated_pipelines_sensor',
     default_args=default_args,
     schedule_interval=timedelta(days=1),
 )
@@ -72,10 +72,7 @@ def run_pipeline1(**kwargs):
         time.sleep(20) 
     if client.pipeline_runs.get('oceanis-rg-dld-sb', 'oceanis-adf-dldtest-sb', run_response.run_id).status in ('Failed'):
         raise AirflowFailException("Pipeline failed")
-    
-    dependency_json["Log"] = ""
-    Variable.set('Job_Dependency',json.dumps(dependency_json), serialize_json= False)
-
+   
 
 run_pipeline_operator1 = PythonOperator(
      task_id='run_pipeline1',
@@ -94,7 +91,7 @@ sensing_Task1 = ExternalTaskSensor(
     external_task_id='run_pipeline1')
 
 sensing_Task2 = ExternalTaskSensor(
-    task_id='wait_for_dependentJob',
+    task_id='wait_for_pipeline3',
     dag=dag,
 # exe cution_delta=timedelta(hours=-l),                         
     execution_date_fn=lambda dt: dt  - timedelta(hours=0),
@@ -109,5 +106,6 @@ sleep = BashOperator(task_id='sleep',
 
                   
 # Set the dependencies
-begin >> sensing_Task1  >> run_pipeline_operator1 >> end
-begin >> sensing_Task2 >> run_pipeline_operator1 >> end
+begin >> sensing_Task1  >> end
+begin >> sensing_Task2  >> end
+begin >> run_pipeline_operator1 >> end
