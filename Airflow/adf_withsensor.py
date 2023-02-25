@@ -21,7 +21,7 @@ with DAG(
     default_view="graph",
 ) as dag:
     begin = EmptyOperator(task_id="begin")
-    end1 = EmptyOperator(task_id="end2")
+    end1 = EmptyOperator(task_id="end1")
     end2 = EmptyOperator(task_id="end2")
 
     # [START howto_operator_adf_run_pipeline]
