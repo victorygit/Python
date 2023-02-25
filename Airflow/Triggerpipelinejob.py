@@ -27,7 +27,7 @@ default_args = {
 
 # Create the DAG
 dag = DAG(
-    'TriggerJob',
+    'TriggerPipelineJob',
     default_args=default_args,
     schedule_interval=timedelta(days=1),
 )
