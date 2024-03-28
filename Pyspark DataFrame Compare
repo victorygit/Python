@@ -1,0 +1,20 @@
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName('data science learner.com').getOrCreate()
+
+records1 = [(1,"Mac","2018","10",30000), 
+    (2,"Piyu","2010","20",40000), 
+    (3,"Jack","2010","10",40000), 
+    (4,"Charlee","2005","60",35000), 
+    (5,"Guo","2010","40",38000)]
+record_Columns = ["seq","Name","joining_year", "specialization_id","salary"]
+sampleDF1 = spark.createDataFrame(data=records1, schema = record_Columns)
+sampleDF1.show(truncate=False)
+
+records2 = [(1,"Mac","2018","10",30000), 
+           (4,"Charlee","2005","60",35000), 
+           (5,"Guo","2010","40",38000)] 
+record_Columns = ["seq","Name","joining_year", "specialization_id","salary"] 
+sampleDF2 = spark.createDataFrame(data=records2, schema = record_Columns) 
+sampleDF2.show(truncate=False)
+final=sampleDF1.subtract(sampleDF2)
+final.show(truncate=False)
