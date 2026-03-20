@@ -10,6 +10,12 @@ metadata_file_path = "c:/supply chain/ASODS Table Fields.csv"
 df_meta_data = pd.read_csv(metadata_file_path)
 #print(df_meta_data)
 
+Table_List_file_path = "c:/supply chain/Table_List.csv"
+df_Table_List = pd.read_csv(Table_List_file_path)
+df_Table_List = df_Table_List[df_Table_List["TABLE_SCHEMA"]=='ORSUSR']
+df_Table_List["Full_Table_Name"] = df_Table_List["TABLE_SCHEMA"] + "." + df_Table_List["table_name"]
+
+
 file_path = "c:/supply chain/summary_output.csv"
 
 def spark_like_summary(df):
@@ -45,11 +51,14 @@ params = urllib.parse.quote_plus(
 
 engine = create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
 
+# Test Table List
 Table_list = [
     "ORSUSR.FISCAL_CLDR",
     "ORSUSR.TIDFCMST"
 #    "ORSUSR.TIDTRACE"
 ]
+Table_list = df_Table_List["Full_Table_Name"]
+
 count = 0
 for table in Table_list:
     count = count + 1
