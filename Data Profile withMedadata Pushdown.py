@@ -244,6 +244,10 @@ class SQLServerProfiler:
         total_rows = int(raw["__total_rows__"].iloc[0])
         print(f"[profiler] Table has {total_rows:,} rows.")
 
+        if  total_rows == 0:
+            records = []
+            return pd.DataFrame(records)
+
         # ------------------------------------------------------------------
         # Percentile query (numeric columns only, server-side)
         # ------------------------------------------------------------------
@@ -314,8 +318,7 @@ class SQLServerProfiler:
 # ------------------------------------------------------------------
 # Example usage
 # ------------------------------------------------------------------
-if __name__ == "__main__":
-    print("Data profile is started at " +str(datetime.now()))
+if __name__ == "__main__":    
     profiler = SQLServerProfiler(
         server="ODS",          # e.g. "localhost" or "myserver\\SQLEXPRESS"
         database="ORSUSR",
@@ -331,10 +334,13 @@ if __name__ == "__main__":
     df_Table_List["Full_Table_Name"] = df_Table_List["TABLE_SCHEMA"] + "." + df_Table_List["table_name"]
 
     file_path = "c:/supply chain/summary_output_Pushdown.csv"
-    count = 0
+    count = 1
     Table_list = df_Table_List["Full_Table_Name"]
     for table in  Table_list:
         count = count + 1
+        print("Table counter is: ", str(count))
+        print("---------------------------------")
+        print("Data profile is started at " +str(datetime.now()))
         try:
             print("Table " + table + " Data profile is running")
             df_summary = profiler.profile(
@@ -350,6 +356,7 @@ if __name__ == "__main__":
 
         finally:
             print(table +' Profile Finished')
+            print("Data profile is finished at " + str(datetime.now()))
     
-    print("Data profile is finished at " + str(datetime.now()))
+   
     profiler.close()
