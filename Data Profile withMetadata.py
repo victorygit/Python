@@ -4,6 +4,7 @@ import pyodbc
 import os
 from sqlalchemy import create_engine
 import urllib
+from datetime import datetime
 
 
 metadata_file_path = "c:/supply chain/ASODS Table Fields.csv"

@@ -334,10 +334,11 @@ if __name__ == "__main__":
     df_Table_List["Full_Table_Name"] = df_Table_List["TABLE_SCHEMA"] + "." + df_Table_List["table_name"]
 
     file_path = "c:/supply chain/summary_output_Pushdown.csv"
-    count = 1
+    count = 0
     Table_list = df_Table_List["Full_Table_Name"]
     for table in  Table_list:
         count = count + 1
+        print("---------------------------------")
         print("Table counter is: ", str(count))
         print("---------------------------------")
         print("Data profile is started at " +str(datetime.now()))
@@ -347,10 +348,12 @@ if __name__ == "__main__":
                 table,                       # change to your table
                 percentiles=[0.20, 0.50, 0.75],        # P20, P50, P75 — pass [] to skip
             )
+            df_summary.insert(0, "table_name", table.split(".")[1])
             #print(df_summary)
             # Save to CSV
             if not os.path.exists(file_path) or count == 1:
-                df_summary.to_csv(file_path, index=False)
+                df_summary.to_csv(file_path, header=True, index=False)
+                print('Header')
             else:
                 df_summary.to_csv(file_path, mode="a", header=False, index=False)
 
